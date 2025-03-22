@@ -13,7 +13,7 @@ export default function Hero() {
 					ソフトウェアエンジニア
 				</h2>
 				<p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed mb-8 md:mb-10">
-					2001年徳島県生まれ。8歳から高校まで野球に打ち込み、現在は名古屋大学情報学研究科でコンピュータサイエンス分野における修士研究を行いつつ、スタートアップ企業のソフトウェアエンジニアとしてのお仕事や個人開発を行っております。
+					名古屋大学情報学研究科で修士研究を行いつつ、スタートアップ企業のソフトウェアエンジニアとしてのお仕事や個人開発を行っております。
 				</p>
 				<div className="flex justify-center gap-4">
 					<AppleButton

@@ -22,7 +22,7 @@ export default function Footer({ socialLinks, authorName }: FooterProps) {
 			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 				<h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Connect</h2>
 
-				<div className="flex flex-wrap justify-center gap-3 md:gap-6 mb-6 md:mb-8">
+				<div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-6 md:mb-8">
 					{socialLinks.map((link) => (
 						<Link
 							key={link.href}
