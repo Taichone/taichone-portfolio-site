@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AppleButton from "../ui/AppleButton";
 
 export interface ProjectItem {
 	id: string;
