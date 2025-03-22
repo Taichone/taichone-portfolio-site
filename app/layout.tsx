@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "あなたの名前 | ポートフォリオ",
-	description: "ソフトウェアエンジニア・あなたの名前のポートフォリオサイト",
+	title: "Taichone | ポートフォリオ",
+	description: "ソフトウェアエンジニア・Taichoneのポートフォリオサイト",
 };
 
 export default function RootLayout({

@@ -10,26 +10,48 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-1",
-		period: "2022 - 現在",
-		title: "シニアソフトウェアエンジニア",
-		company: "株式会社〇〇",
+		period: "2025.1 - 現在",
+		title: "ソフトウェアエンジニア（副業）",
+		company: "株式会社ARKLET",
 		description:
-			"主要プロダクトの設計・開発・運用を担当。チームリーダーとして5名のエンジニアをマネジメント。",
+			"Webサービスの開発、設計、保守。フロントエンド、バックエンド、LLMアプリケーション開発。",
 	},
 	{
 		id: "exp-2",
-		period: "2019 - 2022",
-		title: "ソフトウェアエンジニア",
-		company: "株式会社△△",
-		description:
-			"Webアプリケーションのフロントエンドとバックエンドの開発に従事。",
+		period: "2024.4 - 2026.3（予定）",
+		title: "情報学研究科（修士）",
+		company: "名古屋大学",
+		description: "コンピュータサイエンス（情報システム学専攻）での研究活動。",
 	},
 	{
 		id: "exp-3",
-		period: "2015 - 2019",
-		title: "大学",
-		company: "〇〇大学 情報工学部",
-		description: "コンピュータサイエンスを専攻。",
+		period: "2024.9 - 2024.10",
+		title: "iOSエンジニア（インターン）",
+		company: "株式会社ゆめみ",
+		description: "iOSアプリケーション開発。",
+	},
+	{
+		id: "exp-4",
+		period: "2024.9",
+		title: "iOSエンジニア（インターン）",
+		company: "サイボウズ株式会社",
+		description:
+			"モバイルiOS実務型インターンシップに参加。Cybozu Internship 2024。",
+	},
+	{
+		id: "exp-5",
+		period: "2020.4 - 2024.3",
+		title: "理工学部（知能情報システムコース）",
+		company: "徳島大学",
+		description:
+			"コンピュータサイエンスを専攻し、自然言語処理、機械学習分野の研究。日本語テキストから読点の位置の傾向を学習し、適切な位置に自動読点挿入できる言語モデルを開発。",
+	},
+	{
+		id: "exp-6",
+		period: "2021.6 - 2022.12",
+		title: "iOSエンジニア（アルバイト）",
+		company: "株式会社 L is B",
+		description: "自社サービス「direct」iOS版の新規機能追加及び改善。",
 	},
 ];
 
@@ -37,22 +59,31 @@ const experienceData: ExperienceItem[] = [
 const projectsData: ProjectItem[] = [
 	{
 		id: "project-1",
-		title: "プロジェクト1",
-		description: "プロジェクトの簡単な説明文をここに入れます。",
-		tags: ["React", "TypeScript"],
+		title: "Seamsuki",
+		description:
+			"文章内の自然な区切り位置に自動で読点を挿入するAIモデル。大学の卒業研究として開発した自然言語処理プロジェクト。",
+		tags: ["Python", "機械学習", "自然言語処理", "BERT", "PyTorch"],
 	},
 	{
 		id: "project-2",
-		title: "プロジェクト2",
-		description: "プロジェクトの簡単な説明文をここに入れます。",
-		tags: ["Next.js", "Tailwind"],
+		title: "Portfolio Website",
+		description:
+			"Next.js 15とTailwind CSS 4を使用した個人ポートフォリオサイト。モダンなUIとアニメーションを実装。",
+		tags: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
+	},
+	{
+		id: "project-3",
+		title: "Voiceful App",
+		description:
+			"音声コンテンツ共有のためのiOSアプリケーション。SwiftUIとFirebaseを活用した音声SNSプラットフォーム。",
+		tags: ["Swift", "SwiftUI", "Firebase", "iOS"],
 	},
 ];
 
 // ソーシャルリンクデータ
 const socialLinksData: SocialLink[] = [
 	{
-		href: "https://github.com/yourusername",
+		href: "https://github.com/taichimiki",
 		label: "GitHub",
 		icon: (
 			<svg
@@ -69,7 +100,7 @@ const socialLinksData: SocialLink[] = [
 		),
 	},
 	{
-		href: "https://twitter.com/yourusername",
+		href: "https://twitter.com/taichimiki",
 		label: "X",
 		icon: (
 			<svg
@@ -86,7 +117,7 @@ const socialLinksData: SocialLink[] = [
 		),
 	},
 	{
-		href: "https://www.wantedly.com/id/yourusername",
+		href: "https://www.wantedly.com/id/miki_taichi",
 		label: "Wantedly",
 		icon: (
 			<svg
@@ -103,7 +134,7 @@ const socialLinksData: SocialLink[] = [
 		),
 	},
 	{
-		href: "https://apps.apple.com/developer/yourusername/id123456789",
+		href: "https://apps.apple.com/developer/taichi-miki/id1612632300",
 		label: "AppStore",
 		icon: (
 			<svg
@@ -129,7 +160,7 @@ export default function Home() {
 			<Hero />
 			<Experience experiences={experienceData} />
 			<Projects projects={projectsData} />
-			<Footer socialLinks={socialLinksData} authorName="あなたの名前" />
+			<Footer socialLinks={socialLinksData} authorName="三木 太智" />
 		</div>
 	);
 }
