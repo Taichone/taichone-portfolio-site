@@ -15,15 +15,17 @@ interface ProjectsSectionProps {
 
 export default function Projects({ projects }: ProjectsSectionProps) {
 	return (
-		<section className="py-16" id="projects">
+		<section className="py-12 md:py-16" id="projects">
 			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-				<h2 className="text-3xl font-bold mb-12 text-center">プロジェクト</h2>
+				<h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center">
+					プロジェクト
+				</h2>
 
-				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 					{projects.map((project) => (
 						<div
 							key={project.id}
-							className="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md"
+							className="bg-white dark:bg-gray-800 rounded-xl md:rounded-2xl overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md"
 						>
 							<div className="aspect-video bg-gray-100 dark:bg-gray-700 relative">
 								{project.imageUrl && (
@@ -35,16 +37,18 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 									/>
 								)}
 							</div>
-							<div className="p-6">
-								<h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-								<p className="text-gray-600 dark:text-gray-400 mb-4">
+							<div className="p-4 md:p-6">
+								<h3 className="text-lg md:text-xl font-semibold mb-1 md:mb-2">
+									{project.title}
+								</h3>
+								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-3 md:mb-4">
 									{project.description}
 								</p>
-								<div className="flex flex-wrap gap-2 mb-4">
+								<div className="flex flex-wrap gap-1 md:gap-2 mb-3 md:mb-4">
 									{project.tags.map((tag, tagIndex) => (
 										<span
 											key={`${project.id}-tag-${tagIndex}`}
-											className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm"
+											className="px-2 md:px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-xs md:text-sm"
 										>
 											{tag}
 										</span>
@@ -66,7 +70,7 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 					))}
 				</div>
 
-				<div className="mt-12 text-center">
+				<div className="mt-8 md:mt-12 text-center">
 					<AppleButton color="black">他のプロジェクトを見る</AppleButton>
 				</div>
 			</div>
