@@ -60,20 +60,20 @@ const projectsData: ProjectItem[] = [
 		title: "オート読点挿入言語モデル",
 		description:
 			"テキストから読点位置を自動学習し、読点のない文章に対して自動で読点挿入する大規模言語モデル。",
-		tags: ["Python", "機械学習", "自然言語処理", "BERT", "PyTorch"],
+		tags: ["Python", "自然言語処理", "機械学習"],
 	},
 	{
 		id: "project-2",
 		title: "ゆめたて",
 		description: "AIとのチャットを通じて、理想の住まいを提案するWebサービス。",
-		tags: ["Next.js", "TypeScript", "FastAPI", "Python", "Dify", "LLM"],
+		tags: ["Next.js", "TypeScript", "FastAPI", "Supabase", "Dify"],
 	},
 	{
 		id: "project-3",
 		title: "Notion Timer",
 		description:
 			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
-		tags: ["SwiftUI", "Swift", "Notion API"],
+		tags: ["SwiftUI", "Observation", "SPM", "Swift", "Notion API"],
 	},
 ];
 
@@ -110,23 +110,6 @@ const socialLinksData: SocialLink[] = [
 				aria-label="X (Twitter) logo"
 			>
 				<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-			</svg>
-		),
-	},
-	{
-		href: "https://www.wantedly.com/id/miki_taichi",
-		label: "Wantedly",
-		icon: (
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="20"
-				height="20"
-				fill="currentColor"
-				viewBox="0 0 24 24"
-				role="img"
-				aria-label="Wantedly logo"
-			>
-				<path d="M14.5 24H18V15H14.5V24ZM3 24H14V15H3V24ZM3 13.5H18V9H3V13.5ZM19.5 24H21V9H19.5V24ZM3 7.5H21V3H3V7.5Z" />
 			</svg>
 		),
 	},
