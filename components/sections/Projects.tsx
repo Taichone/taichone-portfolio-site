@@ -25,7 +25,7 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 					{projects.map((project) => (
 						<div
 							key={project.id}
-							className="bg-white dark:bg-gray-800 rounded-xl md:rounded-2xl overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md"
+							className="bg-white dark:bg-gray-800 rounded-xl md:rounded-2xl overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md flex flex-col"
 						>
 							<div className="aspect-video bg-gray-100 dark:bg-gray-700 relative">
 								{project.imageUrl && (
@@ -37,14 +37,15 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 									/>
 								)}
 							</div>
-							<div className="p-4 md:p-6">
+							<div className="p-4 md:p-6 flex flex-col grow">
 								<h3 className="text-lg md:text-xl font-semibold mb-1 md:mb-2">
 									{project.title}
 								</h3>
-								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-3 md:mb-4">
+								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-3 md:mb-4 grow">
 									{project.description}
 								</p>
-								<div className="flex flex-wrap gap-1 md:gap-2 mb-3 md:mb-4">
+								<div className="mb-2" />
+								<div className="flex flex-wrap gap-1 md:gap-2 items-end">
 									{project.tags.map((tag, tagIndex) => (
 										<span
 											key={`${project.id}-tag-${tagIndex}`}
