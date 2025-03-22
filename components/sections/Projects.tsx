@@ -54,31 +54,13 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 										</span>
 									))}
 								</div>
-								<AppleButton
-									color={
-										project.id === "project-1"
-											? "red"
-											: project.id === "project-2"
-												? "blue"
-												: "green"
-									}
-									variant={
-										project.id === "project-1"
-											? "outlined"
-											: project.id === "project-2"
-												? "filled"
-												: "text"
-									}
-								>
-									詳細を見る
-								</AppleButton>
 							</div>
 						</div>
 					))}
 				</div>
 
 				<div className="mt-8 md:mt-12 text-center">
-					<AppleButton color="black" variant="outlined">
+					<AppleButton color="blue" variant="outlined">
 						他のプロジェクトを見る
 					</AppleButton>
 				</div>

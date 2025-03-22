@@ -46,13 +46,6 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-3 md:mb-4">
 									{experience.description}
 								</p>
-								{experience.id === "exp-1" && (
-									<div className="mt-2 md:mt-0">
-										<AppleButton color="black" variant="outlined">
-											詳細を見る
-										</AppleButton>
-									</div>
-								)}
 							</div>
 						</div>
 					))}
@@ -65,7 +58,7 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 						}
 						variant="filled"
 					>
-						全ての経歴を見る
+						Wantedly Profile を見る
 					</AppleButton>
 				</div>
 			</div>
