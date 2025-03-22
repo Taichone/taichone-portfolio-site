@@ -22,7 +22,7 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 		>
 			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 				<h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center">
-					経歴
+					Experience
 				</h2>
 
 				<div className="space-y-6 md:space-y-8">
