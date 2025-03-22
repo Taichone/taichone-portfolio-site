@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type React from "react";
+import AppleButton from "../ui/AppleButton";
 
 export interface SocialLink {
 	href: string;
@@ -18,7 +19,7 @@ export default function Footer({ socialLinks, authorName }: FooterProps) {
 			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 				<h2 className="text-3xl font-bold mb-8">Connect</h2>
 
-				<div className="flex flex-wrap justify-center gap-6 mb-12">
+				<div className="flex flex-wrap justify-center gap-6 mb-8">
 					{socialLinks.map((link) => (
 						<Link
 							key={link.href}
@@ -31,6 +32,12 @@ export default function Footer({ socialLinks, authorName }: FooterProps) {
 							{link.label}
 						</Link>
 					))}
+				</div>
+
+				<div className="mb-12">
+					<AppleButton color="white" textColor="black">
+						お問い合わせ
+					</AppleButton>
 				</div>
 
 				<p className="text-gray-600 dark:text-gray-400">

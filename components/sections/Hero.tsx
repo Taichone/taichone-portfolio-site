@@ -1,5 +1,7 @@
 "use client";
 
+import AppleButton from "../ui/AppleButton";
+
 export default function Hero() {
 	return (
 		<section className="py-20 md:py-32">
@@ -13,10 +15,8 @@ export default function Hero() {
 				<p className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed mb-10">
 					2001年徳島県生まれ。8歳から高校まで野球に打ち込み、現在は名古屋大学情報学研究科でコンピュータサイエンス分野における修士研究を行いつつ、スタートアップ企業のソフトウェアエンジニアとしてのお仕事や個人開発を行っております。
 				</p>
-				<div className="flex flex-wrap justify-center gap-4">
-					<button
-						type="button"
-						className="apple-button"
+				<div className="flex justify-center gap-4">
+					<AppleButton
 						onClick={() => {
 							const element = document.getElementById("projects");
 							if (element) {
@@ -28,22 +28,7 @@ export default function Hero() {
 						}}
 					>
 						プロジェクトを見る
-					</button>
-					<button
-						type="button"
-						className="text-apple-blue dark:text-apple-blue-light font-medium"
-						onClick={() => {
-							const element = document.getElementById("contact");
-							if (element) {
-								window.scrollTo({
-									top: element.offsetTop,
-									behavior: "smooth",
-								});
-							}
-						}}
-					>
-						お問い合わせ →
-					</button>
+					</AppleButton>
 				</div>
 			</div>
 		</section>

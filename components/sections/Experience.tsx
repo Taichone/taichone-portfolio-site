@@ -1,3 +1,7 @@
+"use client";
+
+import AppleButton from "../ui/AppleButton";
+
 export interface ExperienceItem {
 	id: string;
 	period: string;
@@ -34,12 +38,25 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 								<p className="text-gray-700 dark:text-gray-300 mb-2">
 									{experience.role}
 								</p>
-								<p className="text-gray-600 dark:text-gray-400">
+								<p className="text-gray-600 dark:text-gray-400 mb-4">
 									{experience.description}
 								</p>
+								{experience.id === "exp-1" && (
+									<AppleButton color="black">詳細を見る</AppleButton>
+								)}
 							</div>
 						</div>
 					))}
+				</div>
+
+				<div className="mt-12 text-center">
+					<AppleButton
+						onClick={() =>
+							window.open("https://www.wantedly.com/id/miki_taichi", "_blank")
+						}
+					>
+						全ての経歴を見る
+					</AppleButton>
 				</div>
 			</div>
 		</section>

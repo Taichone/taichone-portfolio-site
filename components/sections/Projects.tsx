@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AppleButton from "../ui/AppleButton";
 
 export interface ProjectItem {
 	id: string;
@@ -39,7 +40,7 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 								<p className="text-gray-600 dark:text-gray-400 mb-4">
 									{project.description}
 								</p>
-								<div className="flex flex-wrap gap-2">
+								<div className="flex flex-wrap gap-2 mb-4">
 									{project.tags.map((tag, tagIndex) => (
 										<span
 											key={`${project.id}-tag-${tagIndex}`}
@@ -49,9 +50,24 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 										</span>
 									))}
 								</div>
+								<AppleButton
+									color={
+										project.id === "project-1"
+											? "red"
+											: project.id === "project-2"
+												? "blue"
+												: "green"
+									}
+								>
+									詳細を見る
+								</AppleButton>
 							</div>
 						</div>
 					))}
+				</div>
+
+				<div className="mt-12 text-center">
+					<AppleButton color="black">他のプロジェクトを見る</AppleButton>
 				</div>
 			</div>
 		</section>

@@ -40,7 +40,7 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-5",
 		period: "2024.9 (1週間)",
-		role: "アプリケーションエンジニア (ハッカソン形式インターンシップ）",
+		role: "夏の陣 (インターンシップ)",
 		affiliation: "楽天グループ株式会社",
 		description: "",
 	},
@@ -49,13 +49,6 @@ const experienceData: ExperienceItem[] = [
 		period: "2024.8 (2日間)",
 		role: "CYCOMPE iOS 2024 (インターンシップ)",
 		affiliation: "株式会社サイバーエージェント",
-		description: "",
-	},
-	{
-		id: "exp-9",
-		period: "2024.8 (2日間)",
-		role: "iOSエンジニア (インターンシップ)",
-		affiliation: "チームラボ株式会社",
 		description: "",
 	},
 	{
@@ -70,8 +63,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2020.4 - 2024.3",
 		role: "理工学部 知能情報システムコース",
 		affiliation: "徳島大学",
-		description:
-			"ヒューマンコミュニケーション工学研究室（自然言語処理、機械学習）",
+		description: "自然言語処理、機械学習に関する研究",
 	},
 ];
 
@@ -79,24 +71,23 @@ const experienceData: ExperienceItem[] = [
 const projectsData: ProjectItem[] = [
 	{
 		id: "project-1",
-		title: "Seamsuki",
+		title: "オート読点挿入言語モデル",
 		description:
-			"文章内の自然な区切り位置に自動で読点を挿入するAIモデル。大学の卒業研究として開発した自然言語処理プロジェクト。",
+			"テキストから読点位置を自動学習し、読点のない文章に対して自動で読点挿入する大規模言語モデル。",
 		tags: ["Python", "機械学習", "自然言語処理", "BERT", "PyTorch"],
 	},
 	{
 		id: "project-2",
-		title: "Portfolio Website",
-		description:
-			"Next.js 15とTailwind CSS 4を使用した個人ポートフォリオサイト。モダンなUIとアニメーションを実装。",
-		tags: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
+		title: "ゆめたて",
+		description: "AIとのチャットを通じて、理想の住まいを提案するWebサービス。",
+		tags: ["Next.js", "TypeScript", "FastAPI", "Python", "Dify", "LLM"],
 	},
 	{
 		id: "project-3",
-		title: "Voiceful App",
+		title: "Notion Timer",
 		description:
-			"音声コンテンツ共有のためのiOSアプリケーション。SwiftUIとFirebaseを活用した音声SNSプラットフォーム。",
-		tags: ["Swift", "SwiftUI", "Firebase", "iOS"],
+			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
+		tags: ["SwiftUI", "Swift", "Notion API"],
 	},
 ];
 
