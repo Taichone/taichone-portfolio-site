@@ -28,7 +28,7 @@ const experienceData: ExperienceItem[] = [
 		role: "ソフトウェアエンジニア",
 		affiliation: "Summer Internship",
 		description:
-			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社, 株式会社ゆめみ, チームラボ株式会社, Sansan株式会社など",
+			"株式会社サイバーエージェント,\n 楽天グループ株式会社,\n サイボウズ株式会社,\n 株式会社ゆめみ,\n チームラボ株式会社,\n Sansan株式会社",
 	},
 	{
 		id: "exp-8",
