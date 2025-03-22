@@ -65,15 +65,17 @@ const projectsData: ProjectItem[] = [
 	{
 		id: "project-2",
 		title: "ゆめたて",
-		description: "AIとのチャットを通じて、理想の住まいを提案するWebサービス。",
+		description:
+			"チャットを通じて、AIと共に理想の住まいの設計図を創り上げていくWebサービス。",
 		tags: ["Next.js", "TypeScript", "FastAPI", "Supabase", "Dify"],
+		imageUrl: "/images/img_yumetate.png",
 	},
 	{
 		id: "project-3",
 		title: "Notion Timer",
 		description:
 			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
-		tags: ["SwiftUI", "Observation", "SPM", "Swift", "Notion API"],
+		tags: ["SwiftUI", "Swift", "Notion"],
 	},
 ];
 
