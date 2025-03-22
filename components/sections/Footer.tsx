@@ -38,7 +38,7 @@ export default function Footer({ socialLinks, authorName }: FooterProps) {
 				</div>
 
 				<div className="mb-8 md:mb-12">
-					<AppleButton color="white" textColor="black">
+					<AppleButton color="white" textColor="black" variant="text">
 						お問い合わせ
 					</AppleButton>
 				</div>

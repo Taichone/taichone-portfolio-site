@@ -26,6 +26,7 @@ export default function Hero() {
 								});
 							}
 						}}
+						variant="filled"
 					>
 						プロジェクトを見る
 					</AppleButton>

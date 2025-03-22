@@ -62,6 +62,13 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 												? "blue"
 												: "green"
 									}
+									variant={
+										project.id === "project-1"
+											? "outlined"
+											: project.id === "project-2"
+												? "filled"
+												: "text"
+									}
 								>
 									詳細を見る
 								</AppleButton>
@@ -71,7 +78,9 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 				</div>
 
 				<div className="mt-8 md:mt-12 text-center">
-					<AppleButton color="black">他のプロジェクトを見る</AppleButton>
+					<AppleButton color="black" variant="outlined">
+						他のプロジェクトを見る
+					</AppleButton>
 				</div>
 			</div>
 		</section>

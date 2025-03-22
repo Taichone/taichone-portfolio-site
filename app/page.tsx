@@ -13,43 +13,29 @@ const experienceData: ExperienceItem[] = [
 		period: "2024.4 - 現在 (2026.3 卒業見込み)",
 		role: "大学院情報学研究科 博士前期課程",
 		affiliation: "名古屋大学",
-		description: "並列分散システム研究室",
+		description: "情報システム学専攻/並列分散システム研究室",
 	},
 	{
 		id: "exp-1",
 		period: "2025.1 - 現在",
 		role: "ソフトウェアエンジニア",
 		affiliation: "株式会社FriSti",
-		description:
-			"Webサービスの開発、設計、保守。フロントエンド、バックエンド、LLMアプリケーション開発。",
+		description: "Webサービスの開発、設計、保守",
 	},
 	{
 		id: "exp-4",
-		period: "2024.9",
-		role: "iOSエンジニア（インターンシップ）",
-		affiliation: "サイボウズ株式会社",
-		description: "",
-	},
-	{
-		id: "exp-5",
-		period: "2024.9",
-		role: "夏の陣オンライン (インターンシップ)",
-		affiliation: "楽天グループ株式会社",
-		description: "",
-	},
-	{
-		id: "exp-6",
-		period: "2024.8",
-		role: "CYCOMPE iOS (インターンシップ)",
-		affiliation: "株式会社サイバーエージェント",
-		description: "",
+		period: "2024.7 - 2024.10",
+		role: "エンジニア",
+		affiliation: "Summer Internship",
+		description:
+			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社, 株式会社ゆめみ, チームラボ株式会社, Sansan株式会社など",
 	},
 	{
 		id: "exp-8",
 		period: "2021.6 - 2022.12 (1年6ヶ月間)",
 		role: "iOSエンジニア（アルバイト）",
-		affiliation: "株式会社 L is B",
-		description: "自社サービス「direct」iOS版の新規機能追加及び改善。",
+		affiliation: "株式会社L is B",
+		description: "自社サービス「direct」iOS版の新規機能追加及び改善",
 	},
 	{
 		id: "exp-7",
@@ -57,6 +43,13 @@ const experienceData: ExperienceItem[] = [
 		role: "理工学部 知能情報システムコース",
 		affiliation: "徳島大学",
 		description: "自然言語処理、機械学習に関する研究",
+	},
+	{
+		id: "exp-9",
+		period: "2017.4 - 2020.3",
+		role: "硬式野球部",
+		affiliation: "徳島県立脇町高校",
+		description: "内野手（ショート）",
 	},
 ];
 

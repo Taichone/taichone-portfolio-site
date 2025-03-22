@@ -48,7 +48,9 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 								</p>
 								{experience.id === "exp-1" && (
 									<div className="mt-2 md:mt-0">
-										<AppleButton color="black">詳細を見る</AppleButton>
+										<AppleButton color="black" variant="outlined">
+											詳細を見る
+										</AppleButton>
 									</div>
 								)}
 							</div>
@@ -61,6 +63,7 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 						onClick={() =>
 							window.open("https://www.wantedly.com/id/miki_taichi", "_blank")
 						}
+						variant="filled"
 					>
 						全ての経歴を見る
 					</AppleButton>
