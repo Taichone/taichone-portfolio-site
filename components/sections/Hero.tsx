@@ -8,13 +8,10 @@ export default function Hero() {
 					三木 太智
 				</h1>
 				<h2 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8">
-					iOS / Web エンジニア
+					ソフトウェアエンジニア
 				</h2>
 				<p className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed mb-10">
-					モバイルおよびWebアプリケーション開発を専門とするソフトウェアエンジニア。
-					最新技術を活用して、ユーザー中心の高品質なアプリケーション開発に情熱を注いでいます。
-					名古屋大学大学院 情報学研究科
-					修士課程で自然言語処理の研究に取り組んでいます。
+					2001年徳島県生まれ。8歳から高校まで野球に打ち込み、現在は名古屋大学情報学研究科でコンピュータサイエンス分野における修士研究を行いつつ、スタートアップ企業のソフトウェアエンジニアとしてのお仕事や個人開発を行っております。
 				</p>
 				<div className="flex flex-wrap justify-center gap-4">
 					<button

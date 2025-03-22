@@ -10,7 +10,7 @@ export default function MainNavigation() {
 		<nav className="flex-1 flex justify-between items-center">
 			<div className="flex items-center">
 				<Link href="/" className="text-xl font-bold">
-					TAICHI
+					Taichone
 				</Link>
 			</div>
 			<div className="hidden md:flex items-center space-x-8">

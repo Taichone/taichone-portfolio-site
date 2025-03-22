@@ -9,49 +9,69 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
+		id: "exp-2",
+		period: "2024.4 - 現在 (2026.3 卒業見込み)",
+		role: "大学院情報学研究科 博士前期課程",
+		affiliation: "名古屋大学",
+		description: "並列分散システム研究室",
+	},
+	{
 		id: "exp-1",
 		period: "2025.1 - 現在",
-		title: "ソフトウェアエンジニア（副業）",
-		company: "株式会社ARKLET",
+		role: "ソフトウェアエンジニア",
+		affiliation: "株式会社FriSti",
 		description:
 			"Webサービスの開発、設計、保守。フロントエンド、バックエンド、LLMアプリケーション開発。",
 	},
 	{
-		id: "exp-2",
-		period: "2024.4 - 2026.3（予定）",
-		title: "情報学研究科（修士）",
-		company: "名古屋大学",
-		description: "コンピュータサイエンス（情報システム学専攻）での研究活動。",
-	},
-	{
 		id: "exp-3",
-		period: "2024.9 - 2024.10",
-		title: "iOSエンジニア（インターン）",
-		company: "株式会社ゆめみ",
-		description: "iOSアプリケーション開発。",
+		period: "2024.9 - 2024.10 (2週間)",
+		role: "iOSエンジニア（インターンシップ）",
+		affiliation: "株式会社ゆめみ",
+		description: "",
 	},
 	{
 		id: "exp-4",
-		period: "2024.9",
-		title: "iOSエンジニア（インターン）",
-		company: "サイボウズ株式会社",
-		description:
-			"モバイルiOS実務型インターンシップに参加。Cybozu Internship 2024。",
+		period: "2024.9 (1週間)",
+		role: "iOSエンジニア（インターンシップ）",
+		affiliation: "サイボウズ株式会社",
+		description: "",
 	},
 	{
 		id: "exp-5",
-		period: "2020.4 - 2024.3",
-		title: "理工学部（知能情報システムコース）",
-		company: "徳島大学",
-		description:
-			"コンピュータサイエンスを専攻し、自然言語処理、機械学習分野の研究。日本語テキストから読点の位置の傾向を学習し、適切な位置に自動読点挿入できる言語モデルを開発。",
+		period: "2024.9 (1週間)",
+		role: "アプリケーションエンジニア (ハッカソン形式インターンシップ）",
+		affiliation: "楽天グループ株式会社",
+		description: "",
 	},
 	{
 		id: "exp-6",
-		period: "2021.6 - 2022.12",
-		title: "iOSエンジニア（アルバイト）",
-		company: "株式会社 L is B",
+		period: "2024.8 (2日間)",
+		role: "CYCOMPE iOS 2024 (インターンシップ)",
+		affiliation: "株式会社サイバーエージェント",
+		description: "",
+	},
+	{
+		id: "exp-9",
+		period: "2024.8 (2日間)",
+		role: "iOSエンジニア (インターンシップ)",
+		affiliation: "チームラボ株式会社",
+		description: "",
+	},
+	{
+		id: "exp-8",
+		period: "2021.6 - 2022.12 (1年6ヶ月間)",
+		role: "iOSエンジニア（アルバイト）",
+		affiliation: "株式会社 L is B",
 		description: "自社サービス「direct」iOS版の新規機能追加及び改善。",
+	},
+	{
+		id: "exp-7",
+		period: "2020.4 - 2024.3",
+		role: "理工学部 知能情報システムコース",
+		affiliation: "徳島大学",
+		description:
+			"ヒューマンコミュニケーション工学研究室（自然言語処理、機械学習）",
 	},
 ];
 
@@ -83,7 +103,7 @@ const projectsData: ProjectItem[] = [
 // ソーシャルリンクデータ
 const socialLinksData: SocialLink[] = [
 	{
-		href: "https://github.com/taichimiki",
+		href: "https://github.com/Taichone",
 		label: "GitHub",
 		icon: (
 			<svg
@@ -100,7 +120,7 @@ const socialLinksData: SocialLink[] = [
 		),
 	},
 	{
-		href: "https://twitter.com/taichimiki",
+		href: "https://twitter.com/Taichone",
 		label: "X",
 		icon: (
 			<svg
@@ -134,7 +154,7 @@ const socialLinksData: SocialLink[] = [
 		),
 	},
 	{
-		href: "https://apps.apple.com/developer/taichi-miki/id1612632300",
+		href: "https://apps.apple.com/jp/developer/taichi-miki/id1611016286",
 		label: "AppStore",
 		icon: (
 			<svg

@@ -1,8 +1,8 @@
 export interface ExperienceItem {
 	id: string;
 	period: string;
-	title: string;
-	company: string;
+	role: string;
+	affiliation: string;
 	description: string;
 }
 
@@ -29,10 +29,10 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 							</div>
 							<div className="md:col-span-3">
 								<h3 className="text-xl font-semibold mb-2">
-									{experience.title}
+									{experience.affiliation}
 								</h3>
 								<p className="text-gray-700 dark:text-gray-300 mb-2">
-									{experience.company}
+									{experience.role}
 								</p>
 								<p className="text-gray-600 dark:text-gray-400">
 									{experience.description}
