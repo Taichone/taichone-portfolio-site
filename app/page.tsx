@@ -10,7 +10,7 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-2",
-		period: "2024.4 - 現在 (2026.3 卒業見込)",
+		period: "2024.4 - 2026.3",
 		role: "大学院情報学研究科 博士前期課程",
 		affiliation: "名古屋大学",
 		description: "情報システム学専攻/並列分散システム研究室",
@@ -18,7 +18,7 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-1",
 		period: "2025.1 - 現在",
-		role: "ソフトウェアエンジニア",
+		role: "エンジニア",
 		affiliation: "株式会社FriSti",
 		description: "Web開発, LLMアプリケーション開発",
 	},
@@ -35,7 +35,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2021.6 - 2022.12",
 		role: "iOSエンジニア（アルバイト）",
 		affiliation: "株式会社L is B",
-		description: "自社サービス「direct」iOS版の新規機能追加及び改善",
+		description: "ビジネスチャットサービス「direct」iOS版の機能追加及び改善",
 	},
 	{
 		id: "exp-7",
