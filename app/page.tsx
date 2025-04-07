@@ -76,6 +76,7 @@ const projectsData: ProjectItem[] = [
 		description:
 			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
 		tags: ["SwiftUI", "Swift", "Notion"],
+		imageUrl: "/images/img_timer.png",
 	},
 ];
 
