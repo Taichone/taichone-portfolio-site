@@ -20,7 +20,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.1 - 現在",
 		role: "ソフトウェアエンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Webサービスの開発、設計、保守",
+		description: "Web開発, LLMアプリケーション開発",
 	},
 	{
 		id: "exp-4",
@@ -28,7 +28,7 @@ const experienceData: ExperienceItem[] = [
 		role: "ソフトウェアエンジニア",
 		affiliation: "Summer Internship",
 		description:
-			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社, 株式会社ゆめみ, チームラボ株式会社, Sansan株式会社など",
+			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社",
 	},
 	{
 		id: "exp-8",
@@ -57,10 +57,11 @@ const experienceData: ExperienceItem[] = [
 const projectsData: ProjectItem[] = [
 	{
 		id: "project-1",
-		title: "オート読点挿入言語モデル",
+		title: "Notion Timer",
 		description:
-			"テキストから読点位置を自動学習し、読点のない文章に対して自動で読点挿入する大規模言語モデル。",
-		tags: ["Python", "自然言語処理", "機械学習"],
+			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
+		tags: ["SwiftUI", "Swift", "Notion"],
+		imageUrl: "/images/img_timer.png",
 	},
 	{
 		id: "project-2",
@@ -72,11 +73,10 @@ const projectsData: ProjectItem[] = [
 	},
 	{
 		id: "project-3",
-		title: "Notion Timer",
+		title: "オート読点挿入言語モデル",
 		description:
-			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
-		tags: ["SwiftUI", "Swift", "Notion"],
-		imageUrl: "/images/img_timer.png",
+			"テキストから読点位置を自動学習し、読点のない文章に対して自動で読点挿入する大規模言語モデル。",
+		tags: ["Python", "自然言語処理", "機械学習"],
 	},
 ];
 
