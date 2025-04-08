@@ -6,16 +6,28 @@ export function ThemeToggle() {
 	return (
 		<button
 			type="button"
-			onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+			onClick={() => {
+				if (theme === "dark") {
+					setTheme("light");
+				} else if (theme === "light") {
+					setTheme("system");
+				} else {
+					setTheme("dark");
+				}
+			}}
 			className="rounded-full p-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
 			aria-label={
 				theme === "dark"
 					? "ライトモードに切り替える"
-					: "ダークモードに切り替える"
+					: theme === "light"
+						? "システム設定に切り替える"
+						: "ダークモードに切り替える"
 			}
 		>
 			{theme === "dark" ? (
 				<SunIcon className="h-5 w-5" />
+			) : theme === "light" ? (
+				<SystemIcon className="h-5 w-5" />
 			) : (
 				<MoonIcon className="h-5 w-5" />
 			)}
@@ -65,6 +77,27 @@ function MoonIcon(props: React.SVGProps<SVGSVGElement>) {
 		>
 			<title>月アイコン</title>
 			<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+		</svg>
+	);
+}
+
+function SystemIcon(props: React.SVGProps<SVGSVGElement>) {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			strokeWidth="2"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+			aria-hidden="true"
+			{...props}
+		>
+			<title>システム設定アイコン</title>
+			<rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+			<line x1="8" y1="21" x2="16" y2="21" />
+			<line x1="12" y1="17" x2="12" y2="21" />
 		</svg>
 	);
 }
