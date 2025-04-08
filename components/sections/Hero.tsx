@@ -10,10 +10,11 @@ export default function Hero() {
 					三木 太智
 				</h1>
 				<h2 className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
-					名古屋大学 情報学研究科 修士2年 <br />
+					ソフトウェアエンジニア
 				</h2>
 				<p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed mb-8 md:mb-10">
-					ソフトウェアエンジニアのお仕事やSwiftのアプリケーション開発を主に行っております。
+					名古屋大学 情報学研究科 修士2年 <br />
+					Swiftのアプリケーション開発に関心があります
 				</p>
 				<div className="flex justify-center gap-4">
 					<AppleButton
