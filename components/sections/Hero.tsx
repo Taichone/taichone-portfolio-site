@@ -13,8 +13,7 @@ export default function Hero() {
 					ソフトウェアエンジニア
 				</h2>
 				<p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed mb-8 md:mb-10">
-					名古屋大学 情報学研究科 修士2年 <br />
-					Swiftを用いたアプリケーション開発を行なっています。
+					名古屋大学情報学研究科で修士研究を行いつつ、ソフトウェアエンジニアのお仕事やSwiftを用いたアプリ開発を行っております。
 				</p>
 				<div className="flex justify-center gap-4">
 					<AppleButton

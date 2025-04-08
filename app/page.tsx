@@ -73,10 +73,11 @@ const projectsData: ProjectItem[] = [
 	},
 	{
 		id: "project-3",
-		title: "オート読点挿入言語モデル",
+		title: "Comma Insertion Language Model",
 		description:
-			"テキストから読点位置を自動学習し、読点のない文章に対して自動で読点挿入する大規模言語モデル。",
+			"読点のない文章に対して読点挿入を行う言語モデル。ユーザーの読点挿入の傾向を、テキストのみから簡単に学習させておくことができる。",
 		tags: ["Python", "自然言語処理", "機械学習"],
+		imageUrl: "/images/img_comma_model.png",
 	},
 ];
 
