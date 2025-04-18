@@ -31,14 +31,14 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 					{experiences.map((experience) => (
 						<div
 							key={experience.id}
-							className="grid md:grid-cols-5 gap-3 md:gap-4 items-start border-b border-gray-200 dark:border-gray-700 pb-6 md:pb-0 md:border-0 last:border-0"
+							className="flex flex-col md:grid md:grid-cols-5 gap-3 md:gap-4 items-start border-b border-gray-200 dark:border-gray-700 pb-6 md:pb-0 md:border-0 last:border-0"
 						>
-							<div className="md:col-span-1">
+							<div className="md:col-span-1 hidden md:block">
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400">
 									{experience.period}
 								</p>
 							</div>
-							<div className="md:col-span-1 flex justify-start md:justify-center">
+							<div className="flex items-center gap-3 md:col-span-1 md:justify-center">
 								<Image
 									src={experience.imageURL}
 									alt={`${experience.affiliation} logo`}
@@ -46,13 +46,24 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 									height={48}
 									className="rounded-full object-cover"
 								/>
+								<div className="md:hidden flex flex-col">
+									<h3 className="text-lg font-semibold">
+										{experience.affiliation}
+									</h3>
+									<p className="text-base text-gray-700 dark:text-gray-300">
+										{experience.role}
+									</p>
+								</div>
 							</div>
-							<div className="md:col-span-3">
-								<h3 className="text-lg md:text-xl font-semibold mb-1 md:mb-1">
+							<div className="md:col-span-3 flex flex-col">
+								<h3 className="text-lg md:text-xl font-semibold mb-1 md:mb-1 hidden md:block">
 									{experience.affiliation}
 								</h3>
-								<p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-1 md:mb-1">
+								<p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-1 md:mb-1 hidden md:block">
 									{experience.role}
+								</p>
+								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-1 md:mb-1">
+									{experience.period}
 								</p>
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2 md:mb-3">
 									{experience.description}

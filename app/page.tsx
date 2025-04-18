@@ -32,7 +32,7 @@ const experienceData: ExperienceItem[] = [
 		role: "ソフトウェアエンジニア系",
 		affiliation: "インターンシップ",
 		description:
-			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社, 株式会社ゆめみ, Sansan株式会社, チームラボ株式会社",
+			"楽天グループ株式会社, 株式会社サイバーエージェント, サイボウズ株式会社, 株式会社ゆめみ, Sansan株式会社, チームラボ株式会社",
 		imageURL: "https://coupon.rakuten.co.jp/img/logos/2.png?20181211",
 	},
 	{
@@ -40,7 +40,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2021.6 - 2022.12",
 		role: "iOSエンジニア（アルバイト）",
 		affiliation: "株式会社L is B",
-		description: "ビジネスチャットサービス「direct」iOS版の機能追加及び改善",
+		description: "自社サービス「direct」iOS版の機能追加及び改善",
 		imageURL:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsn_Yj8o5IbfiFfa5YF5wRZWR8nUSBTZYt1jGyeQJzT7WRmWgOC1UJtwvK4d7NuzUn-wg&usqp=CAU",
 	},
