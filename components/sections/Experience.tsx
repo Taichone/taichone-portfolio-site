@@ -62,7 +62,7 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 								<p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-1 md:mb-1 hidden md:block">
 									{experience.role}
 								</p>
-								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-1 md:mb-1">
+								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-1 md:mb-1 md:hidden">
 									{experience.period}
 								</p>
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2 md:mb-3">

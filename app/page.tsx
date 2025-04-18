@@ -38,9 +38,9 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-8",
 		period: "2021.6 - 2022.12",
-		role: "iOSエンジニア（アルバイト）",
+		role: "iOSエンジニア",
 		affiliation: "株式会社L is B",
-		description: "自社サービス「direct」iOS版の機能追加及び改善",
+		description: "アルバイト「direct」iOS版の機能追加及び改善",
 		imageURL:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsn_Yj8o5IbfiFfa5YF5wRZWR8nUSBTZYt1jGyeQJzT7WRmWgOC1UJtwvK4d7NuzUn-wg&usqp=CAU",
 	},
