@@ -9,26 +9,31 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
-		id: "exp-2",
+		id: "exp-nu",
 		period: "2024.4 - 2026.3",
 		role: "大学院情報学研究科 博士前期課程",
 		affiliation: "名古屋大学",
 		description: "情報システム学専攻/並列分散システム研究室",
+		imageURL:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLB_fCiGrt78r2qLv3mbVTBrAlDm9eDxESQ&s",
 	},
 	{
-		id: "exp-1",
+		id: "exp-fristi",
 		period: "2025.1 - 現在",
 		role: "エンジニア",
 		affiliation: "株式会社FriSti",
 		description: "Web開発, LLMアプリケーション開発",
+		imageURL:
+			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 	},
 	{
-		id: "exp-4",
+		id: "exp-internship",
 		period: "2024.7 - 2024.10",
-		role: "ソフトウェアエンジニア",
-		affiliation: "Summer Internship",
+		role: "ソフトウェアエンジニア系",
+		affiliation: "インターンシップ",
 		description:
-			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社",
+			"株式会社サイバーエージェント, 楽天グループ株式会社, サイボウズ株式会社, 株式会社ゆめみ, Sansan株式会社, チームラボ株式会社",
+		imageURL: "https://coupon.rakuten.co.jp/img/logos/2.png?20181211",
 	},
 	{
 		id: "exp-8",
@@ -36,6 +41,8 @@ const experienceData: ExperienceItem[] = [
 		role: "iOSエンジニア（アルバイト）",
 		affiliation: "株式会社L is B",
 		description: "ビジネスチャットサービス「direct」iOS版の機能追加及び改善",
+		imageURL:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsn_Yj8o5IbfiFfa5YF5wRZWR8nUSBTZYt1jGyeQJzT7WRmWgOC1UJtwvK4d7NuzUn-wg&usqp=CAU",
 	},
 	{
 		id: "exp-7",
@@ -43,6 +50,7 @@ const experienceData: ExperienceItem[] = [
 		role: "理工学部 知能情報システムコース",
 		affiliation: "徳島大学",
 		description: "自然言語処理、機械学習に関する研究",
+		imageURL: "https://www.tokushima-u.ac.jp/fs/1/8/6/2/1/1/_/gakusyo_mini.jpg",
 	},
 	{
 		id: "exp-9",
@@ -50,6 +58,7 @@ const experienceData: ExperienceItem[] = [
 		role: "硬式野球部",
 		affiliation: "徳島県立脇町高校",
 		description: "内野手（ショート）",
+		imageURL: "https://illustimage.com/photo/1651.png",
 	},
 ];
 

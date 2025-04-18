@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import AppleButton from "../ui/AppleButton";
 
 export interface ExperienceItem {
@@ -8,6 +9,7 @@ export interface ExperienceItem {
 	role: string;
 	affiliation: string;
 	description: string;
+	imageURL: string;
 }
 
 interface ExperienceSectionProps {
@@ -29,12 +31,21 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 					{experiences.map((experience) => (
 						<div
 							key={experience.id}
-							className="grid md:grid-cols-4 gap-3 md:gap-4 items-start border-b border-gray-200 dark:border-gray-700 pb-6 md:pb-0 md:border-0 last:border-0"
+							className="grid md:grid-cols-5 gap-3 md:gap-4 items-start border-b border-gray-200 dark:border-gray-700 pb-6 md:pb-0 md:border-0 last:border-0"
 						>
 							<div className="md:col-span-1">
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400">
 									{experience.period}
 								</p>
+							</div>
+							<div className="md:col-span-1 flex justify-start md:justify-center">
+								<Image
+									src={experience.imageURL}
+									alt={`${experience.affiliation} logo`}
+									width={48}
+									height={48}
+									className="rounded-full object-cover"
+								/>
 							</div>
 							<div className="md:col-span-3">
 								<h3 className="text-lg md:text-xl font-semibold mb-1 md:mb-1">
