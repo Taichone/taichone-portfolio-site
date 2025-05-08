@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "三木 太智 | Taichone Portfolio",
-	description: "三木太智のポートフォリオサイト",
+	title: "三木 太智（みき たいち）",
+	description: "三木太智（みきたいち）のホームページ",
 };
 
 export default function RootLayout({
