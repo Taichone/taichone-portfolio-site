@@ -67,7 +67,8 @@ const experienceData: ExperienceItem[] = [
 		role: "硬式野球部",
 		affiliation: "徳島県立脇町高校",
 		description: "内野手（ショート）",
-		imageURL: "https://illustimage.com/photo/1651.png",
+		imageURL:
+			"https://kunitori-jp.net/wp-content/uploads/2019/03/symbol_tokushima.jpg",
 	},
 ];
 

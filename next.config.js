@@ -30,6 +30,10 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "coupon.rakuten.co.jp",
 			},
+			{
+				protocol: "https",
+				hostname: "kunitori-jp.net",
+			},
 		],
 	},
 };
