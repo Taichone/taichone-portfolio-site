@@ -18,6 +18,15 @@ const experienceData: ExperienceItem[] = [
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLB_fCiGrt78r2qLv3mbVTBrAlDm9eDxESQ&s",
 	},
 	{
+		id: "exp-ly-parttime",
+		period: "2025.6 - 2026.1",
+		role: "ソフトウェアエンジニア",
+		affiliation: "LINEヤフー株式会社",
+		description: "ソフトウェアエンジニア職 アルバイト",
+		imageURL:
+			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
+	},
+	{
 		id: "exp-fristi",
 		period: "2025.1 - 現在",
 		role: "エンジニア",
