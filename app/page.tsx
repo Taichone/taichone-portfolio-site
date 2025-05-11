@@ -11,9 +11,9 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-nu",
 		period: "2024.4 - 2026.3",
-		role: "大学院情報学研究科 博士前期課程",
+		role: "大学院情報学研究科",
 		affiliation: "名古屋大学",
-		description: "情報システム学専攻/並列分散システム研究室",
+		description: "情報システム学専攻 博士前期課程",
 		imageURL:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLB_fCiGrt78r2qLv3mbVTBrAlDm9eDxESQ&s",
 	},
@@ -22,7 +22,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.6 - 2026.1",
 		role: "ソフトウェアエンジニア",
 		affiliation: "LINEヤフー株式会社",
-		description: "ソフトウェアエンジニア職 アルバイト",
+		description: "アルバイト",
 		imageURL:
 			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
 	},
@@ -31,17 +31,17 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.1 - 現在",
 		role: "エンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Web開発, LLMアプリケーション開発",
+		description: "Webサービス開発, LLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 	},
 	{
 		id: "exp-internship",
 		period: "2024.7 - 2024.10",
-		role: "ソフトウェアエンジニア系",
-		affiliation: "インターンシップ",
+		role: "インターンシップ",
+		affiliation: "楽天グループ株式会社 ほか",
 		description:
-			"楽天グループ株式会社, 株式会社サイバーエージェント, サイボウズ株式会社, 株式会社ゆめみ, Sansan株式会社, チームラボ株式会社",
+			"株式会社サイバーエージェント, サイボウズ株式会社, 株式会社ゆめみ, Sansan株式会社, チームラボ株式会社",
 		imageURL: "https://coupon.rakuten.co.jp/img/logos/2.png?20181211",
 	},
 	{
