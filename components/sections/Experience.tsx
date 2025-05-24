@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import AppleButton from "../ui/AppleButton";
 
 export interface ExperienceItem {
 	id: string;
@@ -84,17 +83,6 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 							</div>
 						</div>
 					))}
-				</div>
-
-				<div className="mt-6 md:mt-8 text-center">
-					<AppleButton
-						onClick={() =>
-							window.open("https://www.wantedly.com/id/miki_taichi", "_blank")
-						}
-						variant="filled"
-					>
-						Wantedly Profile を見る
-					</AppleButton>
 				</div>
 			</div>
 		</section>

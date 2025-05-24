@@ -81,7 +81,7 @@ const projectsData: ProjectItem[] = [
 		id: "project-notion-habit",
 		title: "Notion を用いた生産性向上ツール",
 		description:
-			"Notion API を用いて、生産性の向上や習慣化をサポートする仕組みについて日々考えています。",
+			"Notion API を用いて、生産性の向上や習慣化をサポートする仕組みについて考えています。",
 		tags: ["Swift", "TypeScript", "ShellScript", "Notion"],
 		imageUrl: "/images/img_notion_habit.png",
 	},
