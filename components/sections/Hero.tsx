@@ -12,22 +12,6 @@ export default function Hero() {
 				<h2 className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
 					名古屋大学 情報学研究科 修士2年
 				</h2>
-				<div className="flex justify-center gap-4">
-					<AppleButton
-						onClick={() => {
-							const element = document.getElementById("projects");
-							if (element) {
-								window.scrollTo({
-									top: element.offsetTop,
-									behavior: "smooth",
-								});
-							}
-						}}
-						variant="filled"
-					>
-						プロジェクトを見る
-					</AppleButton>
-				</div>
 			</div>
 		</section>
 	);
