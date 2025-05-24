@@ -11,9 +11,9 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-ly-parttime",
 		period: "2025.6 - 2026.1",
-		role: "アルバイト",
+		role: "エンジニア（アルバイト）",
 		affiliation: "LINEヤフー株式会社",
-		description: "ソフトウェアエンジニア職",
+		description: "iOS, iPadOS アプリ開発",
 		imageURL:
 			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
 		labels: ["現在"],
@@ -31,7 +31,7 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-fristi",
 		period: "2025.1 -",
-		role: "ソフトウェアエンジニア",
+		role: "エンジニア",
 		affiliation: "株式会社FriSti",
 		description: "Webサービス開発, LLMアプリケーション開発",
 		imageURL:
@@ -79,15 +79,18 @@ const experienceData: ExperienceItem[] = [
 const projectsData: ProjectItem[] = [
 	{
 		id: "project-productivity",
-		title: "生産性向上ツール",
+		title: "生産性向上の仕組みづくり",
 		description:
-			"生産性の向上や習慣化をサポートする仕組みについて考えています。Apple 愛好家のため Swift メインですが、macOS では Raycast 等のショートカットツールから Shell を走らせて Notion をはじめとする API や LLM に接続することも。",
+			"生産性の向上や習慣化をサポートする仕組みについて日々考えています。未来の自分の意志の力を過信せず、仕組みで解決することを大切にしています。",
 		tags: [
 			"Swift",
 			"TypeScript",
-			"ShellScript",
+			"Shell",
 			"Notion",
-			"LLMアプリケーション",
+			"Raycast",
+			"Dify",
+			"Cursor",
+			"Obsidian",
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
