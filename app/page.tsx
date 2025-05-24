@@ -33,7 +33,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.1 -",
 		role: "ソフトウェアエンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Webサービス開発\nLLMアプリケーション開発",
+		description: "Webサービス開発, LLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 		labels: ["現在"],
@@ -59,9 +59,9 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-7",
 		period: "2020.4 - 2024.3",
-		role: "理工学部 知能情報システムコース",
+		role: "理工学部理工学科",
 		affiliation: "徳島大学",
-		description: "自然言語処理、機械学習に関する研究",
+		description: "知能情報システムコース",
 		imageURL: "https://www.tokushima-u.ac.jp/fs/1/8/6/2/1/1/_/gakusyo_mini.jpg",
 	},
 	{
