@@ -78,7 +78,7 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-1 md:mb-1 md:hidden">
 									{experience.period}
 								</p>
-								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2 md:mb-3">
+								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2 md:mb-3 whitespace-pre-line">
 									{experience.description}
 								</p>
 							</div>

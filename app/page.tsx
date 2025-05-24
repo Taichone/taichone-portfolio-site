@@ -9,6 +9,16 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
+		id: "exp-ly-parttime",
+		period: "2025.6 - 2026.1",
+		role: "アルバイト",
+		affiliation: "LINEヤフー株式会社",
+		description: "ソフトウェアエンジニア職",
+		imageURL:
+			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
+		labels: ["現在"],
+	},
+	{
 		id: "exp-nu",
 		period: "2024.4 - 2026.3",
 		role: "大学院情報学研究科",
@@ -19,21 +29,11 @@ const experienceData: ExperienceItem[] = [
 		labels: ["現在"],
 	},
 	{
-		id: "exp-ly-parttime",
-		period: "2025.6 - 2026.1",
-		role: "ソフトウェアエンジニア",
-		affiliation: "LINEヤフー株式会社",
-		description: "アルバイト",
-		imageURL:
-			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
-		labels: ["現在"],
-	},
-	{
 		id: "exp-fristi",
 		period: "2025.1 -",
 		role: "ソフトウェアエンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Webサービス開発",
+		description: "Webサービス開発\nLLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 		labels: ["現在"],
@@ -44,15 +44,15 @@ const experienceData: ExperienceItem[] = [
 		role: "インターンシップ",
 		affiliation: "楽天グループ株式会社 ほか",
 		description:
-			"株式会社サイバーエージェント, サイボウズ株式会社, 株式会社ゆめみ, Sansan株式会社, チームラボ株式会社",
+			"楽天グループ株式会社\n株式会社サイバーエージェント\nサイボウズ株式会社\n株式会社ゆめみ\nSansan株式会社\nチームラボ株式会社",
 		imageURL: "https://coupon.rakuten.co.jp/img/logos/2.png?20181211",
 	},
 	{
 		id: "exp-8",
 		period: "2021.6 - 2022.12",
-		role: "iOSエンジニア",
+		role: "iOSエンジニア（アルバイト）",
 		affiliation: "株式会社L is B",
-		description: "アルバイト「direct」iOS版の機能追加及び改善",
+		description: "自社サービス「direct」iOS版の機能追加及び改善",
 		imageURL:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsn_Yj8o5IbfiFfa5YF5wRZWR8nUSBTZYt1jGyeQJzT7WRmWgOC1UJtwvK4d7NuzUn-wg&usqp=CAU",
 	},
@@ -78,28 +78,28 @@ const experienceData: ExperienceItem[] = [
 // プロジェクトデータ
 const projectsData: ProjectItem[] = [
 	{
-		id: "project-1",
-		title: "Notion Timer",
+		id: "project-notion-habit",
+		title: "Notion を用いた生産性向上ツール",
 		description:
-			"ポモドーロテクニックにより集中した時間を、あなたのNotionに記録できるiOSアプリ。",
-		tags: ["SwiftUI", "Swift", "Notion"],
-		imageUrl: "/images/img_timer.png",
+			"Notion API を用いて、生産性の向上や習慣化をサポートする仕組みについて日々考えています。",
+		tags: ["Swift", "TypeScript", "ShellScript", "Notion"],
+		imageUrl: "/images/img_notion_habit.png",
 	},
 	{
-		id: "project-2",
-		title: "ゆめたて",
-		description:
-			"チャットを通じて、AIと共に理想の住まいの設計図を創り上げていくWebサービス。",
-		tags: ["Next.js", "TypeScript", "FastAPI", "Supabase", "Dify"],
-		imageUrl: "/images/img_yumetate.png",
-	},
-	{
-		id: "project-3",
+		id: "project-nlp",
 		title: "Comma Insertion Language Model",
 		description:
-			"読点のない文章に対して読点挿入を行う言語モデル。ユーザーの読点挿入の傾向を、テキストのみから簡単に学習させておくことができる。",
-		tags: ["Python", "自然言語処理", "機械学習"],
+			"読点のない日本語の文章に対して、読点挿入を行う言語モデル。音声認識によって生成されたテキストへの読点挿入に最適です。ユーザーの読点挿入位置の傾向を、テキストのみから簡単に学習させておくことができます。",
+		tags: ["自然言語処理", "機械学習", "Transformers", "Python"],
 		imageUrl: "/images/img_comma_model.png",
+	},
+	{
+		id: "project-ymtt",
+		title: "ゆめたて",
+		description:
+			"チャットを通じて、AIと共に理想の住まいの設計図を創り上げていくWebサービス。ゆめたてを用いて、あなたが家に求めるコトを一緒に探していきましょう。",
+		tags: ["Next.js", "NestJS", "TypeScript", "FastAPI", "Python"],
+		imageUrl: "/images/img_yumetate.png",
 	},
 ];
 
