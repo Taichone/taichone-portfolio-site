@@ -78,26 +78,46 @@ const experienceData: ExperienceItem[] = [
 // プロジェクトデータ
 const projectsData: ProjectItem[] = [
 	{
-		id: "project-notion-habit",
-		title: "Notion を用いた生産性向上ツール",
+		id: "project-productivity",
+		title: "生産性向上ツール",
 		description:
-			"Notion API を用いて、生産性の向上や習慣化をサポートする仕組みについて考えています。",
-		tags: ["Swift", "TypeScript", "ShellScript", "Notion"],
-		imageUrl: "/images/img_notion_habit.png",
+			"生産性の向上や習慣化をサポートする仕組みについて考えています。Apple 愛好家のため Swift メインですが、macOS では Raycast 等のショートカットツールから Shell を走らせて Notion をはじめとする API や LLM に接続することも。",
+		tags: [
+			"Swift",
+			"TypeScript",
+			"ShellScript",
+			"Notion",
+			"LLMアプリケーション",
+		],
+		imageUrl: "/images/img_productivity.png",
+	},
+	{
+		id: "project-concurrency",
+		title: "並列分散処理",
+		description:
+			"Swift Concurrency を用いた並列化についての研究。Instruments でパフォーマンスを測定しながら、興味本位でまったりと調査しています。",
+		tags: [
+			"Swift",
+			"Concurrency",
+			"並列分散処理",
+			"Instruments",
+			"パフォーマンス向上",
+		],
+		imageUrl: "/images/img_concurrency.png",
 	},
 	{
 		id: "project-nlp",
-		title: "Comma Insertion Language Model",
+		title: "自然言語処理",
 		description:
-			"読点のない日本語の文章に対して、読点挿入を行う言語モデル。音声認識によって生成されたテキストへの読点挿入に最適です。ユーザーの読点挿入位置の傾向を、テキストのみから簡単に学習させておくことができます。",
-		tags: ["自然言語処理", "機械学習", "Transformers", "Python"],
+			"読点を挿入する言語モデルを制作しました。音声認識により生成されたテキストへの読点挿入に最適です。ユーザーの読点挿入位置の傾向を、テキストのみから簡単に学習させておくことができます。",
+		tags: ["自然言語処理", "機械学習", "Transformers", "Python", "PyTorch"],
 		imageUrl: "/images/img_comma_model.png",
 	},
 	{
 		id: "project-ymtt",
 		title: "ゆめたて",
 		description:
-			"チャットを通じて、AIと共に理想の住まいの設計図を創り上げていくWebサービス。ゆめたてを用いて、あなたが家に求めるコトを一緒に探していきましょう。",
+			"チャットを通じて、AIと共に理想の住まいの設計図を創り上げていくWebサービス。あなたが家に求める想いを、ゆめたてと一緒に探していきましょう。",
 		tags: ["Next.js", "NestJS", "TypeScript", "FastAPI", "Python"],
 		imageUrl: "/images/img_yumetate.png",
 	},
