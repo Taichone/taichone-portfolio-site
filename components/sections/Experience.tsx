@@ -10,6 +10,7 @@ export interface ExperienceItem {
 	affiliation: string;
 	description: string;
 	imageURL: string;
+	labels?: string[];
 }
 
 interface ExperienceSectionProps {
@@ -31,8 +32,20 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 					{experiences.map((experience) => (
 						<div
 							key={experience.id}
-							className="flex flex-col md:grid md:grid-cols-5 gap-3 md:gap-4 items-start border-b border-gray-200 dark:border-gray-700 pb-6 md:pb-0 md:border-0 last:border-0"
+							className="flex flex-col md:grid md:grid-cols-5 gap-3 md:gap-4 items-start border-b border-gray-200 dark:border-gray-700 pb-6 md:pb-0 md:border-0 last:border-0 relative"
 						>
+							{experience.labels && experience.labels.length > 0 && (
+								<div className="absolute top-0 right-0 flex flex-wrap gap-1 justify-end md:mt-1">
+									{experience.labels.map((label) => (
+										<span
+											key={`${experience.id}-${label}`}
+											className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100"
+										>
+											{label}
+										</span>
+									))}
+								</div>
+							)}
 							<div className="md:col-span-1 hidden md:block">
 								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400">
 									{experience.period}
