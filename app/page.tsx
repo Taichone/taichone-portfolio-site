@@ -86,10 +86,11 @@ const projectsData: ProjectItem[] = [
 			"Shell",
 			"Swift",
 			"TypeScript",
-			"Notion",
 			"Raycast",
+			"Shortcuts",
 			"Dify",
 			"Cursor",
+			"Notion",
 			"Obsidian",
 			"MCP"
 		],
