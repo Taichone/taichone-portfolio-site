@@ -83,14 +83,15 @@ const projectsData: ProjectItem[] = [
 		description:
 			"生産性の向上や習慣化をサポートする仕組みについて日々考えています。",
 		tags: [
+			"Shell",
 			"Swift",
 			"TypeScript",
-			"Shell",
 			"Notion",
 			"Raycast",
 			"Dify",
 			"Cursor",
 			"Obsidian",
+			"MCP"
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
@@ -100,12 +101,9 @@ const projectsData: ProjectItem[] = [
 		description:
 			"Swift Concurrency を用いた並列化に少し関心があり、Instruments でパフォーマンスを測定しながら、興味本位でまったりと調査しています。",
 		tags: [
-			"Swift",
 			"Concurrency",
-			"並列分散処理",
 			"Instruments",
-			"パフォーマンス向上",
-			"UX"
+			"UX",
 		],
 		imageUrl: "/images/img_concurrency.png",
 	},
@@ -114,7 +112,7 @@ const projectsData: ProjectItem[] = [
 		title: "自然言語処理",
 		description:
 			"読点を挿入する言語モデルを制作しました。音声認識により生成されたテキストへの読点挿入に最適です。ユーザーの読点挿入位置の傾向を、テキストのみから簡単に学習させておくことができます。",
-		tags: ["自然言語処理", "機械学習", "Transformers", "Python", "PyTorch"],
+		tags: ["自然言語処理", "機械学習", "Transformers", "PyTorch"],
 		imageUrl: "/images/img_nlp.png",
 	},
 ];
