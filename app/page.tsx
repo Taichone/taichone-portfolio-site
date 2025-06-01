@@ -115,7 +115,7 @@ const projectsData: ProjectItem[] = [
 		description:
 			"読点を挿入する言語モデルを制作しました。音声認識により生成されたテキストへの読点挿入に最適です。ユーザーの読点挿入位置の傾向を、テキストのみから簡単に学習させておくことができます。",
 		tags: ["自然言語処理", "機械学習", "Transformers", "Python", "PyTorch"],
-		imageUrl: "/images/img_comma_model.png",
+		imageUrl: "/images/img_nlp.png",
 	},
 	{
 		id: "project-ymtt",
