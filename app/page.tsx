@@ -117,14 +117,6 @@ const projectsData: ProjectItem[] = [
 		tags: ["自然言語処理", "機械学習", "Transformers", "Python", "PyTorch"],
 		imageUrl: "/images/img_nlp.png",
 	},
-	{
-		id: "project-ymtt",
-		title: "ゆめたて",
-		description:
-			"チャットを通じて、AIと共に理想の住まいの設計図を創り上げていくWebサービス。あなたが家に求める想いを、ゆめたてと一緒に探していきましょう。",
-		tags: ["Next.js", "NestJS", "TypeScript", "FastAPI", "Python"],
-		imageUrl: "/images/img_yumetate.png",
-	},
 ];
 
 // ソーシャルリンクデータ
