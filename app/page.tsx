@@ -33,7 +33,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.1 -",
 		role: "エンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Webサービス開発, LLMアプリケーション開発",
+		description: "名古屋大学発スタートアップ\nWebサービス開発, LLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 		labels: ["現在"],
@@ -81,7 +81,7 @@ const projectsData: ProjectItem[] = [
 		id: "project-productivity",
 		title: "生産性向上の仕組みづくり",
 		description:
-			"生産性の向上や習慣化をサポートする仕組みについて日々考えています。未来の自分の意志の力を過信せず、仕組みで解決することを大切にしています。",
+			"生産性の向上や習慣化をサポートする仕組みについて日々考えています。",
 		tags: [
 			"Swift",
 			"TypeScript",
@@ -98,13 +98,14 @@ const projectsData: ProjectItem[] = [
 		id: "project-concurrency",
 		title: "並列分散処理",
 		description:
-			"Swift Concurrency を用いた並列化についての研究。Instruments でパフォーマンスを測定しながら、興味本位でまったりと調査しています。",
+			"Swift Concurrency を用いた並列化に少し関心があり、Instruments でパフォーマンスを測定しながら、興味本位でまったりと調査しています。",
 		tags: [
 			"Swift",
 			"Concurrency",
 			"並列分散処理",
 			"Instruments",
 			"パフォーマンス向上",
+			"UX"
 		],
 		imageUrl: "/images/img_concurrency.png",
 	},
