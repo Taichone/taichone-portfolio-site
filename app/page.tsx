@@ -13,7 +13,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.6 - 2026.1",
 		role: "エンジニア（アルバイト）",
 		affiliation: "LINEヤフー株式会社",
-		description: "ソフトウェアエンジニア (iOS, Android)",
+		description: "iOSエンジニア",
 		imageURL:
 			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
 		labels: ["現在"],
