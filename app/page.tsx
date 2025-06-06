@@ -9,16 +9,6 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
-		id: "exp-ly-parttime",
-		period: "2025.6 - 2026.1",
-		role: "エンジニア（アルバイト）",
-		affiliation: "LINEヤフー株式会社",
-		description: "iOSエンジニア",
-		imageURL:
-			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
-		labels: ["現在"],
-	},
-	{
 		id: "exp-nu",
 		period: "2024.4 - 2026.3",
 		role: "大学院情報学研究科",
@@ -29,11 +19,21 @@ const experienceData: ExperienceItem[] = [
 		labels: ["現在"],
 	},
 	{
+		id: "exp-ly-parttime",
+		period: "2025.6 - 2026.1",
+		role: "ソフトウェアエンジニア（アルバイト）",
+		affiliation: "LINEヤフー株式会社",
+		description: "LINEアプリ開発 (iOS, iPadOS)",
+		imageURL:
+			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
+		labels: ["現在"],
+	},
+	{
 		id: "exp-fristi",
 		period: "2025.1 -",
 		role: "エンジニア",
 		affiliation: "株式会社FriSti",
-		description: "名古屋大学発スタートアップ\nWebサービス開発, LLMアプリケーション開発",
+		description: "Webサービス開発, LLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 		labels: ["現在"],
