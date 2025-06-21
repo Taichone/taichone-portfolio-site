@@ -10,7 +10,7 @@ export default function Hero() {
 					三木 太智
 				</h1>
 				<h2 className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
-					Cupertino Cultist
+					MIKI Taichi
 				</h2>
 				<div className="mt-6 md:mt-8 text-center">
 					<AppleButton

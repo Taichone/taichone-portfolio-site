@@ -9,6 +9,16 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
+		id: "exp-nu",
+		period: "2024.4 - 2026.3",
+		role: "大学院情報学研究科",
+		affiliation: "名古屋大学",
+		description: "情報システム学専攻 博士前期課程",
+		imageURL:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLB_fCiGrt78r2qLv3mbVTBrAlDm9eDxESQ&s",
+		labels: ["現在"],
+	},
+	{
 		id: "exp-ly-parttime",
 		period: "2025.6 - 2026.1",
 		role: "ソフトウェアエンジニア（アルバイト）",
@@ -20,28 +30,17 @@ const experienceData: ExperienceItem[] = [
 	},
 	{
 		id: "exp-fristi",
-		period: "2025.1 -",
+		period: "2025.1 - 2025.6",
 		role: "エンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Webサービス開発, LLMアプリケーション開発",
+		description: "Webサービス開発\nLLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
-		labels: ["現在"],
-	},
-	{
-		id: "exp-nu",
-		period: "2024.4 - 2026.3（卒業見込）",
-		role: "大学院情報学研究科",
-		affiliation: "名古屋大学",
-		description: "情報システム学専攻 博士前期課程",
-		imageURL:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLB_fCiGrt78r2qLv3mbVTBrAlDm9eDxESQ&s",
-		labels: ["現在"],
 	},
 	{
 		id: "exp-internship",
 		period: "2024.7 - 2024.10",
-		role: "インターンシップ",
+		role: "インターンシップ（エンジニア職）",
 		affiliation: "楽天グループ株式会社 ほか",
 		description:
 			"楽天グループ株式会社\n株式会社サイバーエージェント\nサイボウズ株式会社\n株式会社ゆめみ\nSansan株式会社\nチームラボ株式会社",
