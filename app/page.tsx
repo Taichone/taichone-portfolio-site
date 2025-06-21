@@ -33,14 +33,14 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.1 - 2025.6",
 		role: "エンジニア",
 		affiliation: "株式会社FriSti",
-		description: "Webサービス開発\nLLMアプリケーション開発",
+		description: "Webサービス開発, LLMアプリケーション開発",
 		imageURL:
 			"https://prtimes.jp/data/corp/110515/logo/sp-cef0e2e42a9fb354c2eb6a21fa8c007a-37d80c0ba8c7403e028c4ab778239743.jpeg?auto=avif",
 	},
 	{
 		id: "exp-internship",
 		period: "2024.7 - 2024.10",
-		role: "インターンシップ（エンジニア職）",
+		role: "インターンシップ",
 		affiliation: "楽天グループ株式会社 ほか",
 		description:
 			"楽天グループ株式会社\n株式会社サイバーエージェント\nサイボウズ株式会社\n株式会社ゆめみ\nSansan株式会社\nチームラボ株式会社",
