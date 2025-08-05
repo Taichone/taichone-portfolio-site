@@ -9,9 +9,13 @@ export default function Hero() {
 				<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-3 md:mb-4">
 					三木 太智
 				</h1>
-				<h2 className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
+				<h2 className="text-lg md:text-xl lg:text-3xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
 					MIKI Taichi
 				</h2>
+				<p className="text-base md:text-lg text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
+					名古屋在住の大学院生<br />
+					2026年春より東京で働きます
+				</p>
 				<div className="mt-6 md:mt-8 text-center">
 					<AppleButton
 						onClick={() =>
@@ -19,7 +23,7 @@ export default function Hero() {
 						}
 						variant="filled"
 					>
-						Wantedly Profile
+						Wantedly Profile を見る
 					</AppleButton>
 				</div>
 			</div>

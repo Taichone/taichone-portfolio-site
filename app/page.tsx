@@ -21,9 +21,9 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-ly-parttime",
 		period: "2025.6 - 2026.1",
-		role: "ソフトウェアエンジニア（アルバイト）",
+		role: "iOSエンジニア（内定者アルバイト）",
 		affiliation: "LINEヤフー株式会社",
-		description: "LINEアプリ開発 (iOS, iPadOS)",
+		description: "LINEアプリ開発",
 		imageURL:
 			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
 		labels: ["現在"],
@@ -80,18 +80,18 @@ const projectsData: ProjectItem[] = [
 		id: "project-productivity",
 		title: "生産性向上の仕組みづくり",
 		description:
-			"生産性の向上や習慣化をサポートする仕組みについて日々考えています。",
+			"生産性の向上や習慣化をサポートする仕組みについて考えることが好きです。",
 		tags: [
-			"Shell",
 			"Swift",
-			"TypeScript",
-			"Raycast",
+			"Shell",
+			"iCloud",
+			"Widget",
+			"iOS",
+			"watchOS",
+			"Screen Time",
 			"Shortcuts",
-			"Dify",
-			"Cursor",
+			"Raycast",
 			"Notion",
-			"Obsidian",
-			"MCP"
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
@@ -99,11 +99,16 @@ const projectsData: ProjectItem[] = [
 		id: "project-concurrency",
 		title: "並列分散処理",
 		description:
-			"Swift Concurrency を用いた並列化に少し関心があり、Instruments でパフォーマンスを測定しながら、興味本位でまったりと調査しています。",
+			"Swift Concurrency を用いた並列化に関心があります。Instruments でパフォーマンスを計測しつつ、特に Sequence 処理の並列化に取り組んでいます。",
 		tags: [
+			"Swift",
 			"Concurrency",
 			"Instruments",
 			"UX",
+			"修士研究",
+			"並列化",
+			"高速化",
+			"ユーザビリティ"
 		],
 		imageUrl: "/images/img_concurrency.png",
 	},
@@ -111,8 +116,8 @@ const projectsData: ProjectItem[] = [
 		id: "project-nlp",
 		title: "自然言語処理",
 		description:
-			"読点を挿入する言語モデルを制作しました。音声認識により生成されたテキストへの読点挿入に最適です。ユーザーの読点挿入位置の傾向を、テキストのみから簡単に学習させておくことができます。",
-		tags: ["自然言語処理", "機械学習", "Transformers", "PyTorch"],
+			"音声入力されたテキストへの読点挿入に最適な言語モデルを制作しました。人によって異なる読点位置の傾向を、テキストのみから簡単に学習させておくことができます。",
+		tags: ["自然言語処理", "機械学習", "PyTorch", "Transformers",  "BERT", "Masked Language Modeling"],
 		imageUrl: "/images/img_nlp.png",
 	},
 ];

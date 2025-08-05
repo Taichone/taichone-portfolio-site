@@ -46,7 +46,7 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 								</div>
 							)}
 							<div className="md:col-span-1 hidden md:block">
-								<p className="text-sm md:text-base text-gray-600 dark:text-gray-400">
+								<p className="text-sm md:text-base text-gray-600 text-gray-400">
 									{experience.period}
 								</p>
 							</div>
