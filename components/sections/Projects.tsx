@@ -74,7 +74,7 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 					Projects
 				</h2>
 
-				<div className="overflow-x-auto pb-4 snap-x snap-mandatory" ref={scrollRef}>
+				<div className="overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide" ref={scrollRef}>
 					<div className="flex" style={{ width: 'max-content' }}>
 						{projects.map((project) => (
 							<div
