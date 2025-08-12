@@ -127,19 +127,19 @@ const projectsData: ProjectItem[] = [
 
 // スキルデータ
 const skillsData: Skill[] = [
-	{ name: "Swift", level: 9 },
-	{ name: "Kotlin", level: 2 },
-	{ name: "TypeScript", level: 1 },
-	{ name: "Python", level: 4 },
-	{ name: "Final Cut Pro", level: 24 },
-	{ name: "ミート", level: 90 },
-	{ name: "パワー", level: 51 },
-	{ name: "走力", level: 82 },
+	{ name: "Swift", level: 6 },
+	{ name: "English", level: 1 },
+	{ name: "Japanese", level: 30 },
+	{ name: "Awaben", level: 99 },
+	{ name: "Nagoyaben", level: 1 },
+	{ name: "ミート", level: 92 },
+	{ name: "パワー", level: 32 },
+	{ name: "走力", level: 88 },
 	{ name: "守備（遊）", level: 77 },
-	{ name: "捕球", level: 66 },
-	{ name: "肩力", level: 46 },
-	{ name: "スローイング", level: 0 },
-	{ name: "Apple信仰度", level: 100 },
+	{ name: "守備（中）", level: 51 },
+	{ name: "捕球", level: 64 },
+	{ name: "肩力", level: 48 },
+	{ name: "スローイング", level: 2 },
 ];
 
 // ソーシャルリンクデータ

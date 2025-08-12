@@ -18,8 +18,8 @@ export default function SkillsCard({ skills }: SkillsCardProps) {
 						className="bg-white dark:bg-gray-800 rounded-xl md:rounded-2xl overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md"
 						style={{ width: 'min(380px, calc(100vw - 4rem))' }}
 					>
-						<div className="p-6 md:p-8">
-						<div className="space-y-6 md:space-y-8">
+						<div className="p-4 md:p-6">
+						<div className="space-y-3 md:space-y-4">
 							{skills.map((skill, index) => (
 								<div
 									key={skill.name}
