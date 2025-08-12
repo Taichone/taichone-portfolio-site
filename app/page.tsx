@@ -40,7 +40,7 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-internship",
 		period: "2024.7 - 2024.10",
-		role: "インターンシップ",
+		role: "エンジニア職インターンシップ",
 		affiliation: "楽天グループ株式会社 ほか",
 		description:
 			"楽天グループ株式会社\n株式会社サイバーエージェント\nサイボウズ株式会社\n株式会社ゆめみ\nSansan株式会社\nチームラボ株式会社",
