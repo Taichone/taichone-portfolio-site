@@ -6,7 +6,8 @@ import Header from "../components/sections/Header";
 import Hero from "../components/sections/Hero";
 import Projects, { type ProjectItem } from "../components/sections/Projects";
 import { type Skill } from "../components/sections/Skills";
-import ExperienceSkills from "../components/sections/ExperienceSkills";
+import ExperienceOnly from "../components/sections/ExperienceOnly";
+import SkillsCard from "../components/sections/SkillsCard";
 
 // 経歴データ
 const experienceData: ExperienceItem[] = [
@@ -195,10 +196,8 @@ export default function Home() {
 		<div className="min-h-screen bg-white text-black dark:bg-black dark:text-white overflow-x-hidden">
 			<Header />
 			<Hero />
-			<ExperienceSkills 
-				experiences={experienceData}
-				skills={skillsData} 
-			/>
+			<ExperienceOnly experiences={experienceData} />
+			<SkillsCard skills={skillsData} />
 			<Projects projects={projectsData} />
 			<Footer socialLinks={socialLinksData} authorName="Taichone" />
 		</div>
