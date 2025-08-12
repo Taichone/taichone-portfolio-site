@@ -47,7 +47,7 @@ export default function SkillsCard({ skills }: SkillsCardProps) {
 											</div>
 											<div className="absolute right-0 -top-6">
 												<span className="text-xs text-gray-500 dark:text-gray-400 font-mono">
-													{skill.level}%
+													Lv.{skill.level}
 												</span>
 											</div>
 										</div>
