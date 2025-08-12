@@ -1,10 +1,12 @@
-import Experience, {
+import {
 	type ExperienceItem,
 } from "../components/sections/Experience";
 import Footer, { type SocialLink } from "../components/sections/Footer";
 import Header from "../components/sections/Header";
 import Hero from "../components/sections/Hero";
 import Projects, { type ProjectItem } from "../components/sections/Projects";
+import { type Skill } from "../components/sections/Skills";
+import ExperienceSkills from "../components/sections/ExperienceSkills";
 
 // 経歴データ
 const experienceData: ExperienceItem[] = [
@@ -122,6 +124,16 @@ const projectsData: ProjectItem[] = [
 	},
 ];
 
+// スキルデータ
+const skillsData: Skill[] = [
+	{ name: "Swift", level: 30 },
+	{ name: "Objective-C", level: 10 },
+	{ name: "TypeScript", level: 10 },
+	{ name: "Next.js", level: 5 },
+	{ name: "React", level: 5 },
+	{ name: "Python", level: 70 },
+];
+
 // ソーシャルリンクデータ
 const socialLinksData: SocialLink[] = [
 	{
@@ -183,7 +195,10 @@ export default function Home() {
 		<div className="min-h-screen bg-white text-black dark:bg-black dark:text-white overflow-x-hidden">
 			<Header />
 			<Hero />
-			<Experience experiences={experienceData} />
+			<ExperienceSkills 
+				experiences={experienceData}
+				skills={skillsData} 
+			/>
 			<Projects projects={projectsData} />
 			<Footer socialLinks={socialLinksData} authorName="Taichone" />
 		</div>

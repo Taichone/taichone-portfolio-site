@@ -18,14 +18,7 @@ interface ExperienceSectionProps {
 
 export default function Experience({ experiences }: ExperienceSectionProps) {
 	return (
-		<section
-			className="py-12 md:py-16 bg-gray-50 dark:bg-gray-900"
-			id="experience"
-		>
-			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-				<h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center">
-					Experience
-				</h2>
+		<div>
 
 				<div className="space-y-6 md:space-y-8">
 					{experiences.map((experience) => (
@@ -84,7 +77,6 @@ export default function Experience({ experiences }: ExperienceSectionProps) {
 						</div>
 					))}
 				</div>
-			</div>
-		</section>
+		</div>
 	);
 }
