@@ -12,9 +12,19 @@ import SkillsCard from "../components/sections/SkillsCard";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
+		id: "exp-ly",
+		period: "2026.4 -",
+		role: "ソフトウェアエンジニア",
+		affiliation: "LINEヤフー株式会社",
+		description: "東京都千代田区",
+		imageURL:
+			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
+		labels: [],
+	},	
+	{
 		id: "exp-ly-parttime",
 		period: "2025.6 - 2026.1",
-		role: "iOSエンジニア（内定者アルバイト）",
+		role: "iOSエンジニア（アルバイト）",
 		affiliation: "LINEヤフー株式会社",
 		description: "LINEアプリ開発",
 		imageURL:
@@ -127,19 +137,13 @@ const projectsData: ProjectItem[] = [
 
 // スキルデータ
 const skillsData: Skill[] = [
-	{ name: "Swift", level: 9 },
-	{ name: "Kotlin", level: 1 },
-	{ name: "TypeScript", level: 1 },
-	{ name: "Python", level: 4 },
-	{ name: "English", level: 1 },
-	{ name: "ミート", level: 92 },
-	{ name: "パワー", level: 46 },
-	{ name: "走力", level: 88 },
-	{ name: "守備（遊）", level: 82 },
-	{ name: "守備（中）", level: 60 },
-	{ name: "捕球", level: 77 },
-	{ name: "肩力", level: 51 },
-	{ name: "スローイング", level: 2 },
+	{ name: "　 Japanese", level: 95 },
+	{ name: "🔥 English", level: 10 },
+	{ name: "🔥 Swift", level: 20 },
+	{ name: "　 打撃", level: 90 },
+	{ name: "　 走塁", level: 88 },
+	{ name: "　 守備（遊）", level: 80 },
+	{ name: "　 送球", level: 2 },
 ];
 
 // ソーシャルリンクデータ

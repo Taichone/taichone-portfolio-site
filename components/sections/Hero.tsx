@@ -12,10 +12,6 @@ export default function Hero() {
 				<h2 className="text-lg md:text-xl lg:text-3xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
 					MIKI Taichi
 				</h2>
-				<p className="text-base md:text-lg text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
-					名古屋にいる学生です<br />
-					2026年より東京で働きます
-				</p>
 				<div className="mt-6 md:mt-8 text-center">
 					<AppleButton
 						onClick={() =>
@@ -23,7 +19,7 @@ export default function Hero() {
 						}
 						variant="filled"
 					>
-						Wantedly Profile を見る
+						Wantedly を見る
 					</AppleButton>
 				</div>
 			</div>
