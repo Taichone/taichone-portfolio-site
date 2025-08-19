@@ -12,16 +12,6 @@ import SkillsCard from "../components/sections/SkillsCard";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
-		id: "exp-ly",
-		period: "2026.4 -",
-		role: "ソフトウェアエンジニア",
-		affiliation: "LINEヤフー株式会社",
-		description: "東京都千代田区",
-		imageURL:
-			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
-		labels: [],
-	},	
-	{
 		id: "exp-ly-parttime",
 		period: "2025.6 - 2026.1",
 		role: "iOSエンジニア（アルバイト）",

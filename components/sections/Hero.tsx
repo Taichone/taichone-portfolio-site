@@ -12,6 +12,9 @@ export default function Hero() {
 				<h2 className="text-lg md:text-xl lg:text-3xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
 					MIKI Taichi
 				</h2>
+				<p className="text-base md:text-lg text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
+					徳島 » 名古屋 » 東京
+				</p>
 				<div className="mt-6 md:mt-8 text-center">
 					<AppleButton
 						onClick={() =>

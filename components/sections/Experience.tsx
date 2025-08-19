@@ -19,7 +19,6 @@ interface ExperienceSectionProps {
 export default function Experience({ experiences }: ExperienceSectionProps) {
 	return (
 		<div>
-
 				<div className="space-y-6 md:space-y-8">
 					{experiences.map((experience) => (
 						<div
