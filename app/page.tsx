@@ -16,7 +16,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2025.6 - 2026.1",
 		role: "iOSエンジニア（アルバイト）",
 		affiliation: "LINEヤフー株式会社",
-		description: "LINEアプリ開発",
+		description: "メッセージングアプリ「LINE」の開発業務",
 		imageURL:
 			"https://pbs.twimg.com/profile_images/1708099235982479360/7A6D4yj-_400x400.png",
 		labels: ["現在"],
@@ -26,7 +26,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2024.4 - 2026.3",
 		role: "大学院情報学研究科",
 		affiliation: "名古屋大学",
-		description: "情報システム学専攻 博士前期課程",
+		description: "情報システム学専攻\n並列分散システム研究室",
 		imageURL:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLB_fCiGrt78r2qLv3mbVTBrAlDm9eDxESQ&s",
 		labels: ["現在"],
@@ -54,7 +54,7 @@ const experienceData: ExperienceItem[] = [
 		period: "2021.6 - 2022.12",
 		role: "iOSエンジニア（アルバイト）",
 		affiliation: "株式会社L is B",
-		description: "自社サービス「direct」iOS版の機能追加及び改善",
+		description: "ビジネスチャット「direct」の開発業務",
 		imageURL:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsn_Yj8o5IbfiFfa5YF5wRZWR8nUSBTZYt1jGyeQJzT7WRmWgOC1UJtwvK4d7NuzUn-wg&usqp=CAU",
 	},
@@ -83,18 +83,19 @@ const projectsData: ProjectItem[] = [
 		id: "project-productivity",
 		title: "生産性向上の仕組みづくり",
 		description:
-			"生産性の向上や習慣化をサポートする仕組みについて考えることが好きです。",
+			"ずっと自分の生産性に課題を感じていて、生産性の向上や習慣化をサポートする仕組みについて考えることが好きになりました。",
 		tags: [
 			"Swift",
 			"Shell",
-			"iCloud",
-			"Widget",
 			"iOS",
 			"watchOS",
-			"Screen Time",
 			"Shortcuts",
+			"App Intents",
+			"Screen Time API",
+			"AlarmKit",
 			"Raycast",
-			"Notion",
+			"Notion API",
+			"Google Calendar",
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
@@ -102,7 +103,7 @@ const projectsData: ProjectItem[] = [
 		id: "project-concurrency",
 		title: "並列分散処理",
 		description:
-			"Swift Concurrency を用いた並列化に関心があります。Instruments でパフォーマンスを計測しつつ、特に Sequence 処理の並列化に取り組んでいます。",
+			"並列分散システム研究室に所属しています。修士研究として、 Swift Concurrency を用いた Sequence 処理の並列化にマイペースに取り組んでいます。",
 		tags: [
 			"Swift",
 			"Concurrency",
@@ -120,20 +121,22 @@ const projectsData: ProjectItem[] = [
 		title: "自然言語処理",
 		description:
 			"音声入力されたテキストへの読点挿入に最適な言語モデルを制作しました。人によって異なる読点位置の傾向を、テキストのみから簡単に学習させておくことができます。",
-		tags: ["自然言語処理", "機械学習", "PyTorch", "Transformers",  "BERT", "Masked Language Modeling"],
+		tags: ["自然言語処理", "機械学習", "Python", "PyTorch", "Transformers",  "BERT", "Masked Language Modeling"],
 		imageUrl: "/images/img_nlp.png",
 	},
 ];
 
 // スキルデータ
 const skillsData: Skill[] = [
-	{ name: "　 Japanese", level: 95 },
-	{ name: "🔥 English", level: 10 },
-	{ name: "🔥 Swift", level: 20 },
-	{ name: "　 打撃", level: 90 },
-	{ name: "　 走塁", level: 88 },
-	{ name: "　 守備（遊）", level: 80 },
-	{ name: "　 送球", level: 2 },
+	{ name: "Japanese", level: 90 },
+	{ name: "English 🔥", level: 20 },
+	{ name: "Swift 🔥", level: 40 },
+	{ name: "Kotlin", level: 5 },
+	{ name: "TypeScript", level: 5 },
+	{ name: "Python", level: 10 },
+	{ name: "Notion", level: 80 },
+	{ name: "Final Cut Pro", level: 70 },
+	{ name: "Baseball ⚾️", level: 90 },
 ];
 
 // ソーシャルリンクデータ
