@@ -86,16 +86,14 @@ const projectsData: ProjectItem[] = [
 			"ずっと自分の生産性に課題を感じていて、生産性の向上や習慣化をサポートする仕組みについて考えることが好きになりました。",
 		tags: [
 			"Swift",
-			"Shell",
 			"iOS",
+			"iPadOS",
 			"watchOS",
+			"Notion API",
 			"Shortcuts",
 			"App Intents",
-			"Screen Time API",
+			"Screen Time",
 			"AlarmKit",
-			"Raycast",
-			"Notion API",
-			"Google Calendar",
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
@@ -121,7 +119,15 @@ const projectsData: ProjectItem[] = [
 		title: "自然言語処理",
 		description:
 			"音声入力されたテキストへの読点挿入に最適な言語モデルを制作しました。人によって異なる読点位置の傾向を、テキストのみから簡単に学習させておくことができます。",
-		tags: ["自然言語処理", "機械学習", "Python", "PyTorch", "Transformers",  "BERT", "Masked Language Modeling"],
+		tags: [
+			"自然言語処理",
+			"機械学習",
+			"Python",
+			"PyTorch",
+			"Transformers",
+			"BERT",
+			"Masked Language Modeling"
+		],
 		imageUrl: "/images/img_nlp.png",
 	},
 ];
@@ -130,10 +136,7 @@ const projectsData: ProjectItem[] = [
 const skillsData: Skill[] = [
 	{ name: "Japanese", level: 90 },
 	{ name: "English 🔥", level: 20 },
-	{ name: "Swift 🔥", level: 40 },
-	{ name: "Kotlin", level: 5 },
-	{ name: "TypeScript", level: 5 },
-	{ name: "Python", level: 10 },
+	{ name: "Swift 🔥", level: 35 },
 	{ name: "Notion", level: 80 },
 	{ name: "Final Cut Pro", level: 70 },
 	{ name: "Baseball ⚾️", level: 90 },
@@ -201,7 +204,7 @@ export default function Home() {
 			<Header />
 			<Hero />
 			<ExperienceOnly experiences={experienceData} />
-			<SkillsCard skills={skillsData} />
+			{/* <SkillsCard skills={skillsData} /> */}
 			<Projects projects={projectsData} />
 			<Footer socialLinks={socialLinksData} authorName="Taichone" />
 		</div>

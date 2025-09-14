@@ -1,5 +1,6 @@
 "use client";
 
+import { BusFront } from "lucide-react";
 import AppleButton from "../ui/AppleButton";
 
 export default function Hero() {
@@ -13,7 +14,7 @@ export default function Hero() {
 					MIKI Taichi
 				</h2>
 				<p className="text-base md:text-lg text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
-					名古屋在住の学生です。2026年より東京で Software Engineer として働きます⚡️
+					名古屋在住の学生です。<br /> 2026年より東京で働きます⚡️
 				</p>
 				<div className="mt-6 md:mt-8 text-center">
 					<AppleButton
