@@ -5,9 +5,7 @@ import Footer, { type SocialLink } from "../components/sections/Footer";
 import Header from "../components/sections/Header";
 import Hero from "../components/sections/Hero";
 import Projects, { type ProjectItem } from "../components/sections/Projects";
-import { type Skill } from "../components/sections/Skills";
 import ExperienceOnly from "../components/sections/ExperienceOnly";
-import SkillsCard from "../components/sections/SkillsCard";
 
 // 経歴データ
 const experienceData: ExperienceItem[] = [
@@ -132,15 +130,6 @@ const projectsData: ProjectItem[] = [
 	},
 ];
 
-// スキルデータ
-const skillsData: Skill[] = [
-	{ name: "Japanese", level: 90 },
-	{ name: "English 🔥", level: 20 },
-	{ name: "Swift 🔥", level: 35 },
-	{ name: "Notion", level: 80 },
-	{ name: "Final Cut Pro", level: 70 },
-	{ name: "Baseball ⚾️", level: 90 },
-];
 
 // ソーシャルリンクデータ
 const socialLinksData: SocialLink[] = [

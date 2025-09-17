@@ -1,6 +1,5 @@
 "use client";
 
-import { BusFront } from "lucide-react";
 import AppleButton from "../ui/AppleButton";
 
 export default function Hero() {
