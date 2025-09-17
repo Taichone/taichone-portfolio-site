@@ -10,7 +10,7 @@ import ExperienceOnly from "../components/sections/ExperienceOnly";
 // 経歴データ
 const experienceData: ExperienceItem[] = [
 	{
-		id: "exp-ly-parttime",
+		id: "exp-p-ly",
 		period: "2025.6 - 2026.1",
 		role: "iOSエンジニア（アルバイト）",
 		affiliation: "LINEヤフー株式会社",
