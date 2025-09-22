@@ -13,7 +13,8 @@ export default function Hero() {
 					MIKI Taichi
 				</h2>
 				<p className="text-base md:text-lg text-gray-600 dark:text-gray-400 mb-6 md:mb-8">
-					名古屋在住の学生です。<br /> 2026年より東京で働きます⚡️
+					Apple製品向けアプリを開発している大学院生です <br></br>
+					2026年より東京で働きます
 				</p>
 				<div className="mt-6 md:mt-8 text-center">
 					<AppleButton

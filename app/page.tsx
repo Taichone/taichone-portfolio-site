@@ -12,7 +12,7 @@ const experienceData: ExperienceItem[] = [
 	{
 		id: "exp-p-ly",
 		period: "2025.6 - 2026.1",
-		role: "iOSエンジニア（アルバイト）",
+		role: "iOSエンジニア（内定者アルバイト）",
 		affiliation: "LINEヤフー株式会社",
 		description: "メッセージングアプリ「LINE」の開発業務",
 		imageURL:
@@ -89,9 +89,6 @@ const projectsData: ProjectItem[] = [
 			"watchOS",
 			"Notion API",
 			"Shortcuts",
-			"App Intents",
-			"Screen Time",
-			"AlarmKit",
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
@@ -103,12 +100,10 @@ const projectsData: ProjectItem[] = [
 		tags: [
 			"Swift",
 			"Concurrency",
-			"Instruments",
 			"UX",
 			"修士研究",
 			"並列化",
 			"高速化",
-			"ユーザビリティ"
 		],
 		imageUrl: "/images/img_concurrency.png",
 	},
