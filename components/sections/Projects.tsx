@@ -71,7 +71,7 @@ export default function Projects({ projects }: ProjectsSectionProps) {
 		<section className="py-12 md:py-16" id="projects">
 			<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 				<h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center">
-					Projects
+					Interests
 				</h2>
 
 				<div className="overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide" ref={scrollRef}>
