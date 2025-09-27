@@ -78,7 +78,7 @@ const experienceData: ExperienceItem[] = [
 // プロジェクトデータ
 const projectsData: ProjectItem[] = [
 	{
-		id: "project-productivity",
+		id: "interests-productivity",
 		title: "生産性向上の仕組みづくり",
 		description:
 			"ずっと自分の生産性に課題を感じていて、生産性の向上や習慣化をサポートする仕組みについて考えることが好きになりました。",
@@ -93,35 +93,15 @@ const projectsData: ProjectItem[] = [
 		imageUrl: "/images/img_productivity.png",
 	},
 	{
-		id: "project-concurrency",
-		title: "並列分散処理",
-		description:
-			"並列分散システム研究室に所属しています。修士研究として、 Swift Concurrency を用いた Sequence 処理の並列化にマイペースに取り組んでいます。",
+		id: "interests-baseball",
+		title: "野球",
+		description: "8歳から少年野球クラブに所属し、高校野球まで経験しました。イップスという運動障害を発症して、大学以降の野球の道は諦めましたが、そのおかげで、アプリ開発や動画編集などクリエイティブなことの楽しさに出会えたのでよかったです!",
 		tags: [
-			"Swift",
-			"Concurrency",
-			"UX",
-			"修士研究",
-			"並列化",
-			"高速化",
+			"6",
+			"遊撃手",
+			"ショート",
 		],
-		imageUrl: "/images/img_concurrency.png",
-	},
-	{
-		id: "project-nlp",
-		title: "自然言語処理",
-		description:
-			"音声入力されたテキストへの読点挿入に最適な言語モデルを制作しました。人によって異なる読点位置の傾向を、テキストのみから簡単に学習させておくことができます。",
-		tags: [
-			"自然言語処理",
-			"機械学習",
-			"Python",
-			"PyTorch",
-			"Transformers",
-			"BERT",
-			"Masked Language Modeling"
-		],
-		imageUrl: "/images/img_nlp.png",
+		imageUrl: "/images/img_baseball.jpeg",
 	},
 ];
 
