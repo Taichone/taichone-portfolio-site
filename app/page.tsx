@@ -81,21 +81,33 @@ const projectsData: ProjectItem[] = [
 		id: "interests-productivity",
 		title: "生産性向上の仕組みづくり",
 		description:
-			"ずっと自分の生産性に課題を感じていて、生産性の向上や習慣化をサポートする仕組みについて考えることが好きになりました。",
+			"ずっと自分の生産性に課題を感じていて、生産性の向上や習慣化をサポートする仕組みについて考えることが好きになりました。考えるのが好きになっただけで、実際の生産性は未だに一切向上していません...",
 		tags: [
-			"Swift",
-			"iOS",
-			"iPadOS",
-			"watchOS",
+			"iOS App",
+			"watchOS App",
 			"Notion API",
-			"Shortcuts",
+			"ガジェット",
+			"シンプルなインテリア",
 		],
 		imageUrl: "/images/img_productivity.png",
 	},
 	{
+		id: "interests-appdev",
+		title: "ネイティブアプリ開発",
+		description: "アイデア次第でユーザーの日常に大きな影響を与えられるレイヤーであるネイティブアプリ開発に関心があります。",
+		tags: [
+			"Swift",
+			"Kotlin",
+			"UI/UX",
+			"Design",
+			"Software Architecture"
+		],
+		imageUrl: "/images/img_concurrency.png",
+	},
+	{
 		id: "interests-baseball",
 		title: "野球",
-		description: "8歳から高校まで野球ばかりの毎日でした。イップスという神経疾患を発症して突然思い通りに投げられなくなり、野球の道は諦めましたが、そのおかげで大学ではアプリ開発や映像制作といったクリエイティブなことの楽しさに出会うことができました!",
+		description: "8歳から高校まで野球ばかりの毎日でした。イップスという神経疾患を発症して野球の道は諦めましたが、そのおかげで大学ではアプリ開発や映像制作といったクリエイティブなことの楽しさに出会うことができました。",
 		tags: [
 			"6",
 			"遊撃手",
