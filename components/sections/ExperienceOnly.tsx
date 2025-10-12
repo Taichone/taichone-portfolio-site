@@ -44,33 +44,30 @@ export default function ExperienceOnly({ experiences }: ExperienceOnlyProps) {
 											{internship.period}
 										</p>
 									</div>
-									<div className="flex flex-wrap gap-2 md:col-span-1 md:justify-center items-center">
-										{internship.companies.map((company) => (
-											<Image
-												key={company.id}
-												src={company.imageURL}
-												alt={`${company.name} logo`}
-												width={48}
-												height={48}
-												className="rounded-full object-cover"
-											/>
-										))}
-									</div>
-									<div className="md:col-span-3 flex flex-col">
-										<h3 className="text-lg md:text-xl font-semibold mb-1 md:mb-2">
+									<div className="md:col-span-4 flex flex-col gap-3">
+										<h3 className="text-lg md:text-xl font-semibold">
 											{internship.role}
 										</h3>
-										<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-1 md:mb-1 md:hidden">
+										<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 md:hidden">
 											{internship.period}
 										</p>
-										<div className="flex flex-wrap gap-2">
+										<div className="flex flex-col gap-2">
 											{internship.companies.map((company) => (
-												<span
+												<div
 													key={company.id}
-													className="text-sm md:text-base text-gray-700 dark:text-gray-300"
+													className="flex items-center gap-3"
 												>
-													{company.name}
-												</span>
+													<Image
+														src={company.imageURL}
+														alt={`${company.name} logo`}
+														width={48}
+														height={48}
+														className="rounded-full object-cover flex-shrink-0"
+													/>
+													<span className="text-sm md:text-base text-gray-700 dark:text-gray-300">
+														{company.name}
+													</span>
+												</div>
 											))}
 										</div>
 									</div>
