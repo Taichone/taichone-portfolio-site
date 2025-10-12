@@ -44,7 +44,8 @@ export default function ExperienceOnly({ experiences }: ExperienceOnlyProps) {
 											{internship.period}
 										</p>
 									</div>
-									<div className="md:col-span-4 flex flex-col gap-3">
+									<div className="hidden md:block md:col-span-1"></div>
+									<div className="md:col-span-3 flex flex-col gap-3">
 										<h3 className="text-lg md:text-xl font-semibold">
 											{internship.role}
 										</h3>
