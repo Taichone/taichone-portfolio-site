@@ -1,5 +1,6 @@
 import {
 	type ExperienceItem,
+	type InternshipGroupItem,
 } from "../components/sections/Experience";
 import Footer, { type SocialLink } from "../components/sections/Footer";
 import Header from "../components/sections/Header";
@@ -8,7 +9,7 @@ import Projects, { type ProjectItem } from "../components/sections/Projects";
 import ExperienceOnly from "../components/sections/ExperienceOnly";
 
 // 経歴データ
-const experienceData: ExperienceItem[] = [
+const experienceData: (ExperienceItem | InternshipGroupItem)[] = [
 	{
 		id: "exp-p-ly",
 		period: "2025.6 - 2026.1",
@@ -36,52 +37,41 @@ const experienceData: ExperienceItem[] = [
 		imageURL: "/images/img_fristi.jpg",
 	},
 	{
-		id: "exp-yumemi-internship",
-		period: "2024.9",
+		id: "exp-internships-2024",
+		period: "2024.7 - 2024.10",
 		role: "インターンシップ",
-		affiliation: "株式会社ゆめみ",
-		description: "",
-		imageURL: "/images/img_yumemi.jpeg",
-	},
-	{
-		id: "exp-rakuten-internship",
-		period: "2024.9",
-		role: "インターンシップ",
-		affiliation: "楽天グループ株式会社",
-		description: "",
-		imageURL: "/images/img_rakuten.jpeg",
-	},
-	{
-		id: "exp-cybozu-internship",
-		period: "2024.9",
-		role: "インターンシップ",
-		affiliation: "サイボウズ株式会社",
-		description: "",
-		imageURL: "/images/img_cybozu.jpg",
-	},
-	{
-		id: "exp-ca-internship",
-		period: "2024.8",
-		role: "インターンシップ",
-		affiliation: "株式会社サイバーエージェント",
-		description: "",
-		imageURL: "/images/img_cyber_agent.jpeg",
-	},
-	{
-		id: "exp-teamlab-internship",
-		period: "2024.7",
-		role: "インターンシップ",
-		affiliation: "チームラボ株式会社",
-		description: "",
-		imageURL: "/images/img_teamlab.jpeg",
-	},
-	{
-		id: "exp-sansan-internship",
-		period: "2024.7",
-		role: "インターンシップ",
-		affiliation: "Sansan株式会社",
-		description: "",
-		imageURL: "/images/img_sansan.jpeg",
+		companies: [
+			{
+				id: "yumemi",
+				name: "株式会社ゆめみ",
+				imageURL: "/images/img_yumemi.jpeg",
+			},
+			{
+				id: "rakuten",
+				name: "楽天グループ株式会社",
+				imageURL: "/images/img_rakuten.jpeg",
+			},
+			{
+				id: "cybozu",
+				name: "サイボウズ株式会社",
+				imageURL: "/images/img_cybozu.jpg",
+			},
+			{
+				id: "cyber-agent",
+				name: "株式会社サイバーエージェント",
+				imageURL: "/images/img_cyber_agent.jpeg",
+			},
+			{
+				id: "teamlab",
+				name: "チームラボ株式会社",
+				imageURL: "/images/img_teamlab.jpeg",
+			},
+			{
+				id: "sansan",
+				name: "Sansan株式会社",
+				imageURL: "/images/img_sansan.jpeg",
+			},
+		],
 	},
 	{
 		id: "exp-l-is-b",

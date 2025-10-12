@@ -12,6 +12,20 @@ export interface ExperienceItem {
 	labels?: string[];
 }
 
+export interface InternshipCompany {
+	id: string;
+	name: string;
+	imageURL: string;
+}
+
+export interface InternshipGroupItem {
+	id: string;
+	period: string;
+	role: string;
+	companies: InternshipCompany[];
+	labels?: string[];
+}
+
 interface ExperienceSectionProps {
 	experiences: ExperienceItem[];
 }
