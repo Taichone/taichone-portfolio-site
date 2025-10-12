@@ -51,7 +51,7 @@ export default function ExperienceOnly({ experiences }: ExperienceOnlyProps) {
 										<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 md:hidden">
 											{internship.period}
 										</p>
-										<div className="flex flex-col gap-2">
+										<div className="flex flex-col gap-1">
 											{internship.companies.map((company) => (
 												<div
 													key={company.id}
@@ -60,8 +60,8 @@ export default function ExperienceOnly({ experiences }: ExperienceOnlyProps) {
 													<Image
 														src={company.imageURL}
 														alt={`${company.name} logo`}
-														width={48}
-														height={48}
+														width={36}
+														height={36}
 														className="rounded-full object-cover flex-shrink-0"
 													/>
 													<span className="text-sm md:text-base text-gray-700 dark:text-gray-300">
